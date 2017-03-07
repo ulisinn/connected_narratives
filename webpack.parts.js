@@ -50,11 +50,11 @@ exports.loadCSS = function({ include, exclude } = {}) {
     module: {
       rules: [
         {
-          test: /\.css$/,
+          test: /\.(css|scss)$/,
           include,
           exclude,
 
-          use: ['style-loader', 'css-loader'],
+          use: ['style-loader', 'css-loader', 'sass-loader'],
         },
       ],
     },
@@ -64,14 +64,14 @@ exports.loadCSS = function({ include, exclude } = {}) {
 exports.extractCSS = function({ include, exclude, use }) {
   // Output extracted CSS to a file
   const plugin = new ExtractTextPlugin({
-    filename: '[name].[contenthash:8].css',
+    filename: 'styles/[name].[contenthash:8].css',
   });
 
   return {
     module: {
       rules: [
         {
-          test: /\.css$/,
+          test: /\.(css|scss)$/,
           include,
           exclude,
 
@@ -160,7 +160,8 @@ exports.loadFonts = function({ include, exclude, options } = {}) {
           exclude,
 
           use: {
-            loader: 'file-loader',
+            // loader: 'file-loader',
+            loader: 'url-loader?limit=20&name=assets/[name].[hash].[ext]',
             options,
           },
         },
@@ -188,10 +189,10 @@ exports.loadJavaScript = function({ include, exclude }) {
     module: {
       rules: [
         {
-          test: /\.js$/,
+          test: /\.(js|jsx)$/,
           include,
           exclude,
-
+          
           loader: 'babel-loader',
           options: {
             // Enable caching for improved performance during
@@ -204,8 +205,12 @@ exports.loadJavaScript = function({ include, exclude }) {
         },
       ],
     },
+    resolve: {
+      extensions: ['.js', '.jsx'],
+    },
   };
 };
+
 
 exports.clean = function(path) {
   return {

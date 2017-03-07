@@ -4,12 +4,9 @@
   ],
   "presets": [
     [
-      "env",
+      "es2015",
       {
-        "modules": false,
-        "targets": {
-          "browsers": ["IE 8"]
-        }
+        "modules": false
       }
     ],
     "react"
@@ -19,6 +16,12 @@
       "plugins": [
         "istanbul"
       ]
+    },
+    "development": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
     }
   }
 }
+
