@@ -2,7 +2,7 @@ import '../styles/main.scss';
 
 import React, {Component} from 'react';
 
-export default class NavItem extends Component {
+export default class NavItemWide extends Component {
   constructor() {
     super(...arguments);
   }
@@ -10,9 +10,9 @@ export default class NavItem extends Component {
   componentWillMount() {
     // console.log('componentWillMount', this.props);
     // this.props.onToggleDropdown({ name: 'narrow' });
-    // this.props.onNavClick({ name: 'NavItem onNavClick' });
-    // this.props.onNavEnter({ name: 'NavItem onNavEnter' });
-    // this.props.onNavLeave({ name: 'NavItem onNavLeave' });
+    // this.props.onNavClick({ name: 'NavItemNarrow onNavClick' });
+    // this.props.onNavEnter({ name: 'NavItemNarrow onNavEnter' });
+    // this.props.onNarrowNavClick({ name: 'NavItemNarrow onNarrowNavClick' });
   }
   
   onNavEnter(evt) {
@@ -39,7 +39,7 @@ export default class NavItem extends Component {
     
     // console.log(numItems);
     if (numItems > 1) {
-      this.props.onNavLeave({ name: this.props.category })
+      this.props.onNarrowNavClick({ name: this.props.category })
     }
   }
   

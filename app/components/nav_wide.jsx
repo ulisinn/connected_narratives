@@ -1,7 +1,7 @@
 import '../styles/main.scss';
 
 import React, {Component} from 'react';
-import NavItemContainer from './nav_item_container';
+import NavItemContainerWide from './nav_item_container_wide';
 
 export default class NavWide extends Component {
   constructor() {
@@ -16,7 +16,7 @@ export default class NavWide extends Component {
     let callbacks = [
       this.props.onNavClick,
       this.props.onNavEnter,
-      this.props.onNavLeave,
+      this.props.onNarrowNavClick,
       this.props.onToggleDropdown,
     ];
     
@@ -30,11 +30,11 @@ export default class NavWide extends Component {
       }
     });
     
-    // console.log('NavItemContainer render navItems', navItems);
+    // console.log('NavItemContainerNarrow render navItems', navItems);
     
     let container = (navItems).map((item, index) => {
         // console.log('map:', index, item);
-        return <NavItemContainer
+        return <NavItemContainerWide
           key={index}
           {...item}
           {...this.props}

@@ -13,7 +13,7 @@ export default class DropdownItem extends Component {
      this.props.onToggleDropdown({ name: 'narrow' });
      this.props.onNavClick({ name: 'DropdownItemonNavClick' });
      this.props.onNavEnter({ name: 'DropdownItem onNavEnter' });
-     this.props.onNavLeave({ name: 'DropdownItem onNavLeave' });*/
+     this.props.onNarrowNavClick({ name: 'DropdownItem onNarrowNavClick' });*/
   }
   
   onNavEnter(evt) {
@@ -28,7 +28,7 @@ export default class DropdownItem extends Component {
     if (this.props.isNarrow) {
       return;
     }
-    this.props.onNavLeave({ name: this.props.category })
+    this.props.onNarrowNavClick({ name: this.props.category })
   }
   
   onNavClick(evt) {

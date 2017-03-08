@@ -114,23 +114,28 @@ const developmentConfig = merge([
 
 module.exports = function (env) {
   const pages = [
-    parts.page({
-      title: 'React demo',
-      entry: {
-        app: env === 'production' ? PATHS.app :
-          ['react-hot-loader/patch', PATHS.app],
-      },
-      chunks: ['app', 'manifest', 'vendor'],
-    }),
-    parts.page({
-      title: 'French Page',
-      path: 'fr',
-      entry: {
-        another: path.join(PATHS.app, 'french.jsx'),
-      },
-      chunks: ['another', 'manifest', 'vendor'],
-    }),
-  ];
+      parts.page({
+        title: 'Intersecting Biomusic & Autism',
+        template: require.resolve('./template/default_index.ejs'),
+        entry: {
+          app: env === 'production' ? PATHS.app :
+            ['react-hot-loader/patch', PATHS.app],
+        }
+        ,
+        chunks: ['app', 'manifest', 'vendor'],
+      }),
+      parts.page({
+        title: 'French Page',
+        mobile: true,
+        template: require.resolve('./template/default_index.ejs'),
+        path: 'fr',
+        entry: {
+          another: path.join(PATHS.app, 'french.jsx'),
+        },
+        chunks: ['another', 'manifest', 'vendor'],
+      }),
+    ]
+  ;
   const config = env === 'production' ?
     productionConfig :
     developmentConfig;

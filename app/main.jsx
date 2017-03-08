@@ -30,7 +30,7 @@ export default class Main extends Component {
           url: 'social_spacial_inclusion',
           category: 'schedule',
           title: 'CREATING SOCIAL-SPATIAL INCLUSION FOR AUTISM-INCLUSIVE CITIES',
-          short: '',
+          short: 'SOCIAL-SPATIAL INCLUSION',
           date: '(APRIL 23RD, 1-4.30 PM)',
           dropdown: true,
         },
@@ -38,7 +38,7 @@ export default class Main extends Component {
           url: 'biomusic_potentialities',
           category: 'schedule',
           title: 'REFLECTING ON THE POTENTIALITIES OF BIOMUSIC',
-          short: '',
+          short: 'POTENTIALITIES OF BIOMUSIC',
           date: '(APRIL 24TH, 8.30 AM – NOON)',
           dropdown: true,
         },
@@ -46,7 +46,7 @@ export default class Main extends Component {
           url: 'biomusic_aesthetics',
           category: 'schedule',
           title: 'EXPERIENCING THE AESTHETICS OF BIOMUSIC',
-          short: '',
+          short: 'AESTHETICS OF BIOMUSIC',
           date: '(APRIL 24TH, 8.30 AM – NOON)',
           dropdown: true,
         },
@@ -54,7 +54,7 @@ export default class Main extends Component {
           url: 'enacting_inclusion',
           category: 'schedule',
           title: 'ENACTING INCLUSION',
-          short: '',
+          short: 'ENACTING INCLUSION',
           date: '(APRIL 25TH, 8.30 AM – NOON)',
           dropdown: true,
         },
@@ -70,7 +70,7 @@ export default class Main extends Component {
           url: 'research_description',
           category: 'goals',
           title: 'DESCRIPTION OF THE RESEARCH TO BE DISSEMINATED, EXCHANGED, MOBILIZED',
-          short: '',
+          short: 'RESEARCH DESCRIPTION',
           date: '',
           dropdown: true,
         },
@@ -117,7 +117,7 @@ export default class Main extends Component {
       ],
     };
     this.onNavEnter = this.onNavEnter.bind(this);
-    this.onNavLeave = this.onNavLeave.bind(this);
+    this.onNarrowNavClick = this.onNarrowNavClick.bind(this);
     this.onNavClick = this.onNavClick.bind(this);
     
     let wideDropdownTimeout;
@@ -131,10 +131,12 @@ export default class Main extends Component {
     // console.log('onToggleDropdown', evt);
   }
   
+  // WIDE NAV
+  
   onNavClick(evt) {
-    console.log('onNavClick', evt);
     this.killTimeout();
     this.setState({ mainDropdownVisible: false });
+    this.navigateToUrl(evt.name);
   }
   
   onNavEnter(evt) {
@@ -146,10 +148,20 @@ export default class Main extends Component {
     }
   }
   
-  onNavLeave(evt) {
-    // console.log('onNavLeave', evt);
+  onNarrowNavClick(evt) {
+    const dropdownVisible = this.state.mainDropdownVisible;
+    this.killTimeout();
+    this.setState({ mainDropdownVisible: !dropdownVisible });
+    console.log('onNavClick', evt);
+    if (evt.name !== 'hamburger') {
+      this.navigateToUrl(evt.name);
+    }
   }
   
+  navigateToUrl(str) {
+    console.log('navigateToUrl', str);
+    
+  }
   
   onResize(evt = {}) {
     let isNarrow;
@@ -159,7 +171,7 @@ export default class Main extends Component {
       isNarrow = true;
     }
     if (isNarrow !== this.state.isNarrow) {
-      this.setState({ isNarrow: isNarrow });
+      this.setState({ isNarrow: isNarrow, mainDropdownVisible: false });
     }
   }
   
@@ -179,7 +191,7 @@ export default class Main extends Component {
                     onToggleDropdown={this.onToggleDropdown}
                     onNavClick={this.onNavClick}
                     onNavEnter={this.onNavEnter}
-                    onNavLeave={this.onNavLeave}
+                    onNarrowNavClick={this.onNarrowNavClick}
                     {...this.props}
       ></NavContainer>
     </div>;
