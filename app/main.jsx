@@ -7,7 +7,9 @@ export default class Main extends Component {
   constructor() {
     super();
     this.state = {
-      isDropdown: false,
+      mainDropdownVisible: false,
+      lang: 'en',
+      isNarrow: false,
       navigation: [
         {
           url: 'project',
@@ -15,40 +17,46 @@ export default class Main extends Component {
           title: 'project description',
           short: '',
           date: '',
+          dropdown: false,
         },
         {
           url: 'schedule',
           category: 'schedule',
           title: 'schedule & panelists',
           short: '',
+          dropdown: false,
         },
         {
-          url: 'schedule',
+          url: 'social_spacial_inclusion',
           category: 'schedule',
           title: 'CREATING SOCIAL-SPATIAL INCLUSION FOR AUTISM-INCLUSIVE CITIES',
           short: '',
           date: '(APRIL 23RD, 1-4.30 PM)',
+          dropdown: true,
         },
         {
-          url: 'schedule',
+          url: 'biomusic_potentialities',
           category: 'schedule',
           title: 'REFLECTING ON THE POTENTIALITIES OF BIOMUSIC',
           short: '',
           date: '(APRIL 24TH, 8.30 AM – NOON)',
+          dropdown: true,
         },
         {
-          url: 'schedule',
+          url: 'biomusic_aesthetics',
           category: 'schedule',
           title: 'EXPERIENCING THE AESTHETICS OF BIOMUSIC',
           short: '',
           date: '(APRIL 24TH, 8.30 AM – NOON)',
+          dropdown: true,
         },
         {
-          url: 'schedule',
+          url: 'enacting_inclusion',
           category: 'schedule',
           title: 'ENACTING INCLUSION',
           short: '',
           date: '(APRIL 25TH, 8.30 AM – NOON)',
+          dropdown: true,
         },
         {
           url: 'goals',
@@ -56,13 +64,15 @@ export default class Main extends Component {
           title: 'GOALS & OBJECTIVES',
           short: '',
           date: '',
+          dropdown: false,
         },
         {
-          url: 'goals',
+          url: 'research_description',
           category: 'goals',
-          title: 'ENACTING INCLUSION',
+          title: 'DESCRIPTION OF THE RESEARCH TO BE DISSEMINATED, EXCHANGED, MOBILIZED',
           short: '',
-          date: '(APRIL 25TH, 8.30 AM – NOON)',
+          date: '',
+          dropdown: true,
         },
         {
           url: 'patrons',
@@ -70,6 +80,7 @@ export default class Main extends Component {
           title: 'PATRONS & FUNDERS',
           short: '',
           date: '',
+          dropdown: false,
         },
         {
           url: 'contact',
@@ -77,6 +88,15 @@ export default class Main extends Component {
           title: 'contact',
           short: '',
           date: '',
+          dropdown: false,
+        },
+        {
+          url: '',
+          category: 'en',
+          title: 'english',
+          short: '',
+          date: '',
+          dropdown: false,
         },
         {
           url: 'fr',
@@ -84,21 +104,62 @@ export default class Main extends Component {
           title: 'français',
           short: '',
           date: '',
+          dropdown: false,
+        },
+        {
+          url: '',
+          category: 'hamburger',
+          title: '☰',
+          short: '',
+          date: '',
+          dropdown: false,
         },
       ],
-    }
-    ;
+    };
+    this.onNavEnter = this.onNavEnter.bind(this);
+    this.onNavLeave = this.onNavLeave.bind(this);
+    this.onNavClick = this.onNavClick.bind(this);
+    
+    let wideDropdownTimeout;
   }
   
-  onResize(evt) {
-    var dropdown;
-    if (window.innerWidth > 945) {
-      dropdown = false;
-    } else {
-      dropdown = true;
+  componentWillMount() {
+    this.onResize();
+  }
+  
+  onToggleDropdown(evt) {
+    // console.log('onToggleDropdown', evt);
+  }
+  
+  onNavClick(evt) {
+    console.log('onNavClick', evt);
+    this.killTimeout();
+    this.setState({ mainDropdownVisible: false });
+  }
+  
+  onNavEnter(evt) {
+    this.killTimeout();
+    if (!this.state.isNarrow) {
+      this.setState({ mainDropdownVisible: true });
+      // console.log('onNavEnter', this, this.state);
+      this.startTimeout();
     }
-    if (dropdown !== this.state.isDropdown) {
-      this.setState({ isDropdown: dropdown });
+  }
+  
+  onNavLeave(evt) {
+    // console.log('onNavLeave', evt);
+  }
+  
+  
+  onResize(evt = {}) {
+    let isNarrow;
+    if (window.innerWidth > 900) {
+      isNarrow = false;
+    } else {
+      isNarrow = true;
+    }
+    if (isNarrow !== this.state.isNarrow) {
+      this.setState({ isNarrow: isNarrow });
     }
   }
   
@@ -114,7 +175,27 @@ export default class Main extends Component {
   render() {
     return <div>
       <Header {...this.state}></Header>
-      <NavContainer {...this.state}></NavContainer>
+      <NavContainer {...this.state}
+                    onToggleDropdown={this.onToggleDropdown}
+                    onNavClick={this.onNavClick}
+                    onNavEnter={this.onNavEnter}
+                    onNavLeave={this.onNavLeave}
+                    {...this.props}
+      ></NavContainer>
     </div>;
+  }
+  
+  startTimeout() {
+    console.log('startTimeout', this.wideDropdownTimeout);
+    
+    this.wideDropdownTimeout = setTimeout(() => {
+      this.setState({ mainDropdownVisible: false });
+      this.killTimeout()
+    }, 3000)
+  }
+  
+  killTimeout() {
+    clearTimeout(this.wideDropdownTimeout);
+    console.log('killTimeout', this.wideDropdownTimeout);
   }
 }

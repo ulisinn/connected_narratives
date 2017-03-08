@@ -1,12 +1,19 @@
 import '../styles/main.scss';
 
-import React, {Component} from 'react';
+import React from 'react';
+import NavNarrow from './nav_narrow';
+import NavWide from './nav_wide';
 
 const NavContainer = (props) => {
-  return (<div id="topnavContainer">
-
-  
-  </div>);
+  // console.log('isNarrow', props.isNarrow, 'mainDropdownVisible', props.mainDropdownVisible);
+  return (props.isNarrow) ? (<div id="topnavContainer">
+    <div id="topNavBackground"></div>
+    <NavNarrow {...props}/>
+  </div>) : (
+    <div id="topnavContainer">
+      <div id="topNavBackground"></div>
+      <NavWide {...props}/>
+    </div>);
 };
 
 export default NavContainer;

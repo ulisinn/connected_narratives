@@ -9,6 +9,9 @@
         "modules": false
       }
     ],
+    [
+      "es2016"
+    ],
     "react"
   ],
   "env": {

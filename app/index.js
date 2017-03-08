@@ -8,7 +8,7 @@ document.body.appendChild(app);
 
 const render = App => {
   ReactDOM.render(
-    <AppContainer><App /></AppContainer>,
+    <AppContainer><App lang={'en'}/></AppContainer>,
     app
   );
 };
