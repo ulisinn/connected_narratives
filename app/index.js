@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from './app.jsx';
+import Main from './main.jsx';
 import {AppContainer} from 'react-hot-loader';
 
 const app = document.createElement('div');
