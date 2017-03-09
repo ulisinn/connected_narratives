@@ -1,5 +1,6 @@
 import './styles/main.scss';
 import React, {Component} from 'react';
+import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router';
 import Header from './components/header';
 import NavContainer from './components/nav_container';
 
@@ -202,8 +203,8 @@ export default class Main extends Component {
     
     this.wideDropdownTimeout = setTimeout(() => {
       this.setState({ mainDropdownVisible: false });
-      this.killTimeout()
-    }, 3000)
+      this.killTimeout();
+    }, 3000);
   }
   
   killTimeout() {

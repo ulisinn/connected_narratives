@@ -2,7 +2,7 @@ import '../styles/main.scss';
 
 import React, {Component} from 'react';
 import NavItemWide from './nav_item_wide';
-import DropdownItem from './dropdown_item';
+import DropdownItem from './nav_item_dropdown';
 
 export default class NavItemContainerWide extends Component {
   constructor() {
@@ -29,11 +29,11 @@ export default class NavItemContainerWide extends Component {
     
     let listItems = list.map((item, index) => {
       if (!item.dropdown) {
-        return <NavItemWide key={index} {...this.props} {...item}/>
+        return <NavItemWide key={index} {...this.props} {...item}/>;
       } else {
-        return <DropdownItem key={index} {...this.props} {...item}/>
+        return <DropdownItem key={index} {...this.props} {...item}/>;
       }
     });
-    return <div>{listItems}</div>
+    return <div>{listItems}</div>;
   }
 }

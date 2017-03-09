@@ -25,26 +25,26 @@ export default class NavItemWide extends Component {
     
     // console.log(numItems);
     if (numItems > 1) {
-      this.props.onNavEnter({ name: this.props.category })
+      this.props.onNavEnter({ name: this.props.category });
     }
   }
   
-  onNavLeave(evt) {
+  onNavLeave() {
     if (this.props.isNarrow) {
       return;
     }
-    let numItems = this.props.navigation.reduce((previous, current, array, index) => {
+    let numItems = this.props.navigation.reduce((previous, current, array) => {
       return (current.category === this.props.category) ? previous + 1 : previous;
     }, 0);
     
     // console.log(numItems);
     if (numItems > 1) {
-      this.props.onNarrowNavClick({ name: this.props.category })
+      this.props.onNarrowNavClick({ name: this.props.category });
     }
   }
   
   onNavClick(evt) {
-    this.props.onNavClick({ name: this.props.url })
+    this.props.onNavClick({ name: this.props.url });
   }
   
   render() {
@@ -52,6 +52,6 @@ export default class NavItemWide extends Component {
                 onMouseEnter={(evt) => this.onNavEnter(evt)}
                 onMouseLeave={(evt) => this.onNavLeave(evt)}
                 onClick={(evt) => this.onNavClick(evt)}
-    >{this.props.title}</div>
+    >{this.props.title}</div>;
   }
 }

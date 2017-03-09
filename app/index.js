@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from './main.jsx';
+import Main from './app.jsx';
 import {AppContainer} from 'react-hot-loader';
 
 const app = document.createElement('div');
@@ -16,5 +16,5 @@ const render = App => {
 render(Main);
 
 if (module.hot) {
-  module.hot.accept('./main.jsx', () => render(Main));
+  module.hot.accept('./app.jsx', () => render(Main));
 }

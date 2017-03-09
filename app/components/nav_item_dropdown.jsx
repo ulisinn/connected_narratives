@@ -16,24 +16,24 @@ export default class DropdownItem extends Component {
      this.props.onNarrowNavClick({ name: 'DropdownItem onNarrowNavClick' });*/
   }
   
-  onNavEnter(evt) {
+  onNavEnter() {
     if (this.props.isNarrow) {
       return;
     }
-    this.props.onNavEnter({ name: this.props.category })
+    this.props.onNavEnter({ name: this.props.category });
     
   }
   
-  onNavLeave(evt) {
+  onNavLeave() {
     if (this.props.isNarrow) {
       return;
     }
-    this.props.onNarrowNavClick({ name: this.props.category })
+    this.props.onNarrowNavClick({ name: this.props.category });
   }
   
-  onNavClick(evt) {
+  onNavClick() {
     // console.log('DropdownItem onNavClick', this.props);
-    this.props.onNavClick({ name: this.props.url })
+    this.props.onNavClick({ name: this.props.url });
 
   }
   
@@ -52,6 +52,6 @@ export default class DropdownItem extends Component {
     >
       <p className="helvetica">{this.props.title}</p>
       <p className="helveticaBold">{this.props.date}</p>
-    </div>
+    </div>;
   }
 }
