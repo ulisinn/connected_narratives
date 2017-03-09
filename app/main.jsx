@@ -12,7 +12,7 @@ export default class Main extends Component {
       isNarrow: false,
       navigation: [
         {
-          url: 'project',
+          url: 'description',
           category: 'project',
           title: 'project description',
           short: '',
