@@ -1,1 +1,1 @@
-# connected_narratives
+# Website for a McGill conference.
