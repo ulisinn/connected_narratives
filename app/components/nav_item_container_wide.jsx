@@ -17,7 +17,7 @@ export default class NavItemContainerWide extends Component {
   }
   
   render() {
-    console.log('NavItemContainerWide props', this.props);
+    // console.log('NavItemContainerWide props', this.props);
     let list = (this.props.navigation).filter((item, index) => {
       if (this.props.category === item.category) {
         return true;

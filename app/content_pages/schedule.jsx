@@ -3,7 +3,7 @@ import '../styles/main.scss';
 import React from 'react';
 
 const Schedule = () => {
-  return (<div id="schedule">Schedule CONTENT</div>);
+  return (<div id="schedule" className="contentWrapper"><div className="content">Schedule CONTENT</div></div>);
 };
 
 Schedule.propTypes = {

@@ -161,7 +161,7 @@ export default class Main extends Component {
   
   navigateToUrl(str) {
     console.log('navigateToUrl', str);
-    
+    // browserHistory.push('/' + str);
   }
   
   onResize(evt = {}) {

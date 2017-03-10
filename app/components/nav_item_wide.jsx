@@ -1,6 +1,7 @@
 import '../styles/main.scss';
 
 import React, {Component} from 'react';
+import {Link} from 'react-router';
 
 export default class NavItemWide extends Component {
   constructor() {
@@ -48,10 +49,16 @@ export default class NavItemWide extends Component {
   }
   
   render() {
-    return <div className="navItem"
+    const link = '/' + this.props.url;
+    const style = {
+      textDecoration: 'none',
+      color: 'inherit',
+    };
+    
+    return <Link style={style} to={link}><div className="navItem"
                 onMouseEnter={(evt) => this.onNavEnter(evt)}
                 onMouseLeave={(evt) => this.onNavLeave(evt)}
                 onClick={(evt) => this.onNavClick(evt)}
-    >{this.props.title}</div>;
+    >{this.props.title}</div></Link>;
   }
 }

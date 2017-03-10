@@ -3,7 +3,7 @@ import '../styles/main.scss';
 import React from 'react';
 
 const Contact = () => {
-  return (<div id="contact">Contact CONTENT</div>);
+  return (<div id="contact" className="contentWrapper"><div className="content">Contact CONTENT</div></div>);
 };
 
 Contact.propTypes = {
