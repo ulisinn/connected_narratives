@@ -1,20 +1,25 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Main from './main.jsx';
-import {AppContainer} from 'react-hot-loader';
+import {render} from 'react-dom';
+import { Router, browserHistory } from 'react-router';
+import {Provider} from 'react-redux';
+import configureStore from './store/configureStore';
+import { syncHistoryWithStore } from 'react-router-redux';
+import routes from './routes';
+
+// import {AppContainer} from 'react-hot-loader';
 
 const app = document.createElement('div');
+app.id = 'wrapper';
+// const reducers = require('./reducers');
+const store = configureStore();
+const history = syncHistoryWithStore(browserHistory, store);
+
 document.body.appendChild(app);
 
-const render = App => {
-  ReactDOM.render(
-    <AppContainer><App lang={'en'}/></AppContainer>,
-    app
-  );
-};
+render(
+  <Provider store={store}>
+    <Router history={history} routes={routes} />
+  </Provider>,
+  app
+);
 
-render(Main);
-
-if (module.hot) {
-  module.hot.accept('./app.jsx', () => render(Main));
-}

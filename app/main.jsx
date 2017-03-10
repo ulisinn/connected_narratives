@@ -186,7 +186,7 @@ export default class Main extends Component {
   }
   
   render() {
-    return <div>
+    return <div id="topNode">
       <Header {...this.state}></Header>
       <NavContainer {...this.state}
                     onToggleDropdown={this.onToggleDropdown}
@@ -195,6 +195,7 @@ export default class Main extends Component {
                     onNarrowNavClick={this.onNarrowNavClick}
                     {...this.props}
       ></NavContainer>
+      {this.props.children}
     </div>;
   }
   
