@@ -5,7 +5,7 @@
 import React from 'react';
 import {IndexRoute, Route} from 'react-router';
 
-import Main from './main';
+import Main from './components/main';
 import Home from './content_pages/home';
 import BiomusicAesthetics from './content_pages/biomusic_aesthetics';
 import BiomusicPotentialities from './content_pages/biomusic_potentialities';
