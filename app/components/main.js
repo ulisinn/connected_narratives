@@ -8,8 +8,8 @@ export default class Main extends Component {
   render() {
     return <div id="topNode">
       <Header></Header>
-        <NavContainer></NavContainer>
-      {this.props.children}
+      <NavContainer></NavContainer>
+      <div id="contentWrapper">{this.props.children}</div>
     </div>;
   }
 }

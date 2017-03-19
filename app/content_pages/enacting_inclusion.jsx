@@ -5,13 +5,13 @@ import ContentHeader from '../components/content_header';
 import ContentFooter from '../components/content_footer';
 
 const EnactingInclusion = () => {
-  return (<div id="enacting_inclusion" className="content">
+  return (<div id="enacting_inclusion" className="contentWrapper">
     <div className="content">
       <ContentHeader text="Enacting inclusion"/>
       <ContentHeader text="(April 25th, 8.30 am – noon)"/>
       
       <div className="contentBody">Our initiative for social inclusion will close with a panel discussion at the <span
-        className="contentBodyEm">Centre for Interdisciplinary Research
+        className="contentBodyEm contentBodyIt">Centre for Interdisciplinary Research
         in Music and Media Technology (<a href="http://www.cirmmt.org" target="_blank">www.cirmmt.org</a>)</span>, a
         multi-disciplinary and inter- institutional2 research group
         housed at the Schulich School of Music, McGill University. Interfacing biomusic and autism aligns with the
