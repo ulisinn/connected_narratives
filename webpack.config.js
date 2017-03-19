@@ -123,16 +123,6 @@ module.exports = function (env) {
         ,
         chunks: ['app', 'manifest', 'vendor'],
       }),
-      parts.page({
-        title: 'French Page',
-        mobile: true,
-        template: require.resolve('./template/default_index.ejs'),
-        path: 'fr',
-        entry: {
-          another: path.join(PATHS.app, 'french.jsx'),
-        },
-        chunks: ['another', 'manifest', 'vendor'],
-      }),
     ]
   ;
   const config = env === 'production' ?
