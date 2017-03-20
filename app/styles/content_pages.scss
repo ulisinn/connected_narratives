@@ -66,4 +66,57 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
   margin-top: 0.6em;
   margin-bottom: 2em;
   font-style: italic;
+  text-transform: none;
+}
+
+#schedule {
+  text-transform: uppercase;
+
+}
+
+.scheduleDay {
+  font-size: 0.9em;
+  margin-bottom: 1.5em;
+  header {
+    font-family: $PantonBlackCaps;
+    color: $body_orange;
+    line-height: 1.3em;
+  }
+
+}
+
+.scheduleEvent {
+  display: flex;
+  flex-flow: row;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1em;
+}
+
+.scheduleTime {
+  width:130px;
+}
+
+.scheduleParticipant{
+  display: inline;
+}
+
+.scheduleTitle {
+  margin-right: 0.5em;
+}
+
+@media all and (max-width: 750px) {
+  .scheduleEvent {
+    flex-direction: column;
+    margin-bottom: 0.2em;
+
+  }
+
+  .scheduleDay {
+    margin-bottom: 2em;
+
+    div {
+      padding-top: 3px;
+    }
+  }
 }
