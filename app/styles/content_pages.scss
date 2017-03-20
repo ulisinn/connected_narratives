@@ -335,14 +335,13 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
 
 #contactAddresses {
   padding: 10px;
-  //width: 50%;
-  //height: 345px;
   margin-top: 60px;
   background-color: rgba(0, 0, 0, 0.12);
 }
 
 .contactAddress {
   color: $body_orange;
+  line-height: 1.3em;
   display: block;
   margin-bottom: 0.7em;
   padding: 10px;
