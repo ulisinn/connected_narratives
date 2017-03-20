@@ -27,6 +27,12 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
   //border: 1px solid red;
 }
 
+.contentFull{
+  position: relative;
+  max-width: 940px;
+  margin: 0 auto;
+  padding-top: 1.9em;
+}
 .contentHeader {
   color: $body_orange;
   font-size: 1.3em;
@@ -57,7 +63,8 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
 .contentBodyIt {
   font-style: italic;
 }
-.noTransform{
+
+.noTransform {
   text-transform: none !important;
 }
 
@@ -97,28 +104,30 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
 }
 
 .scheduleTime {
-  width:130px;
+  width: 130px;
 }
 
-.scheduleParticipant{
+.scheduleParticipant {
   display: inline;
   min-width: 170px;
 }
 
-.panelistName{
+.panelistName {
   text-transform: uppercase;
   min-width: 230px;
   line-height: 1.2em;
 
-  p{
+  p {
     padding-left: 0.6em;
   }
 }
-.panelistOrg{
+
+.panelistOrg {
   padding-left: 0.6em;
   line-height: 1.2em;
 
 }
+
 .scheduleTitle {
   margin-right: 0.5em;
 }
@@ -137,6 +146,7 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
     }
   }
 }
+
 @media all and (max-width: 640px) {
   .localPanelists {
     flex-direction: column;
@@ -150,4 +160,96 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
       padding-top: 3px;
     }
   }
+}
+
+// PATRONS
+
+#patrons {
+  margin-top: -30px;
+}
+
+#patronsWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  //border: 1px solid red;
+}
+
+#patronsHeader {
+  position: relative;
+  background: url("../images/patrons_img.png") 0 0 no-repeat;
+  width: 50%;
+  height: 300px;
+
+}
+
+#patronsTitle {
+  position: absolute;
+  margin-left: 0.5em;
+  right: 20px;
+  top: 44px;
+  font-family: Panton-LightCaps, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 1.8em;
+}
+
+#patronsLogos {
+  padding: 15px;
+  width: 50%;
+  height: 240px;
+  margin-top: 18px;
+  border: 1px solid lightgray;
+  border-left: none;
+}
+
+.logo {
+  width: 140px;
+  height: 50px;
+  //border: 1px solid green;
+  float: left;
+  margin: 5px;
+}
+
+#mc_gill {
+  background: url("../images/mc_gill_logo.png") 0 50% no-repeat;
+  background-size: 90%;
+
+}
+
+#museum_fine_arts {
+  background: url("../images/montreal_museum_logo.png") 0 50% no-repeat;
+  background-size: 90%;
+
+}
+
+#cirmmt {
+  background: url("../images/cirmmt_logo.png") 0 50% no-repeat;
+  background-size: 50%;
+
+}
+
+#le_salon {
+  width: 90px;
+  height: 60px;
+  background: grey url("../images/LeSalon-logo.png") 50% 50% no-repeat;
+  background-size: 70%;
+
+}
+
+@media all and (max-width: 640px) {
+  #patronsWrapper {
+    flex-direction: column;
+    margin-bottom: 0.2em;
+  }
+  #patronsHeader {
+    width: 100%;
+    height: 100px;
+  }
+  #patronsLogos {
+    padding: 15px;
+    width: 100%;
+    height: 240px;
+    border: none;
+  }
+
 }

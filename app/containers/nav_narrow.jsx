@@ -22,7 +22,7 @@ class NavNarrow extends Component {
     let navItems = (this.props.currentNavigation).filter((item, index) => {
       if (item.category === 'hamburger' || index === 0) {
         // console.log(item);
-        return true
+        return true;
       } else {
         return false;
       }
@@ -41,7 +41,7 @@ class NavNarrow extends Component {
           mainDropdownVisible={this.state.mainDropdownVisible}
           lang={this.props.lang}
           key={index}
-        />
+        />;
       }
     );
     return <div id="navcontainer"
@@ -49,7 +49,7 @@ class NavNarrow extends Component {
                   this.navcontainer = el;
                 }}>
       {container}
-    </div>
+    </div>;
   }
   
   
@@ -59,11 +59,6 @@ class NavNarrow extends Component {
     const children = this.navcontainer.getElementsByClassName('isNarrowDropdown');
     const numChildren = children.length;
     if (!this.state.mainDropdownVisible) {
-      /*      for (let item of children) {
-       if (item.classList.contains('hidden')) {
-       item.classList.remove('hidden');
-       }
-       }*/
       for (var i = 0; i < numChildren; i++) {
         var item = children[i];
         if (item.classList.contains('hidden')) {
@@ -72,7 +67,7 @@ class NavNarrow extends Component {
       }
       this.setState({ mainDropdownVisible: true });
     } else {
-      this.hideDropdown()
+      this.hideDropdown();
     }
   }
   
@@ -90,7 +85,7 @@ class NavNarrow extends Component {
   }
   
   onNavClick() {
-    this.hideDropdown()
+    this.hideDropdown();
   }
   
   hideDropdown() {

@@ -80,11 +80,6 @@ class NavWide extends Component {
         item.classList.remove('hidden');
       }
     }
-    /*    for (let item of children) {
-     if (item.classList.contains('hidden')) {
-     item.classList.remove('hidden');
-     }
-     }*/
   }
   
   onNavLeave(id, ref) {
