@@ -107,10 +107,17 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
 
 .panelistName{
   text-transform: uppercase;
-  min-width: 200px;
+  min-width: 230px;
+  line-height: 1.2em;
+
+  p{
+    padding-left: 0.6em;
+  }
 }
 .panelistOrg{
   padding-left: 0.6em;
+  line-height: 1.2em;
+
 }
 .scheduleTitle {
   margin-right: 0.5em;
