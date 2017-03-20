@@ -47,7 +47,7 @@ const BiomusicPotentialities = () => {
         
         <div className="localPanelists">
           <div className="panelistName"><span className="helveticaBold">• Laurence Kirmayer</span>
-            <p>((Transcultural Psychiatry)</p>
+            <p>(Transcultural Psychiatry)</p>
             <p> McGill University, CA</p>
           </div>
           <div className="panelistOrg helvetica contentBodyIt">Interpersonal, Familial & Community Dimensions
@@ -55,7 +55,7 @@ const BiomusicPotentialities = () => {
         </div>
         <div className="localPanelists">
           <div className="panelistName"><span className="helveticaBold">• Cheryl Mattingly</span>
-            <p>((Anthropology)</p>
+            <p>(Anthropology)</p>
             <p>Aarhus University, DK</p>
           </div>
           <div className="panelistOrg helvetica contentBodyIt">
