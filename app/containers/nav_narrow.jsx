@@ -59,7 +59,13 @@ class NavNarrow extends Component {
     const children = this.navcontainer.getElementsByClassName('isNarrowDropdown');
     const numChildren = children.length;
     if (!this.state.mainDropdownVisible) {
-      for (let item of children) {
+      /*      for (let item of children) {
+       if (item.classList.contains('hidden')) {
+       item.classList.remove('hidden');
+       }
+       }*/
+      for (var i = 0; i < numChildren; i++) {
+        var item = children[i];
         if (item.classList.contains('hidden')) {
           item.classList.remove('hidden');
         }

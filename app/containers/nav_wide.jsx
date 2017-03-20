@@ -72,24 +72,34 @@ class NavWide extends Component {
       return;
     }
     const children = this.navcontainer.getElementsByClassName('isDropdown');
+    console.log('onNavEnter',children );
     const numChildren = children.length;
-    for (let item of children) {
+    for (var i = 0; i < numChildren; i++) {
+      let item = children[i];
       if (item.classList.contains('hidden')) {
         item.classList.remove('hidden');
       }
     }
+    /*    for (let item of children) {
+     if (item.classList.contains('hidden')) {
+     item.classList.remove('hidden');
+     }
+     }*/
   }
   
   onNavLeave(id, ref) {
     this.rollOutTimer = setTimeout(() => {
-      console.log('rollOutTimer', this.rollOutTimer);
+      // console.log('rollOutTimer', this.rollOutTimer);
       this.hideDropdown();
     }, 500);
   }
   
   hideDropdown() {
     const children = this.navcontainer.getElementsByClassName('isDropdown');
-    for (let item of children) {
+    const numChildren = children.length;
+  
+    for (var i = 0; i < numChildren; i++) {
+      let item = children[i];
       item.classList.add('hidden');
     }
   }
