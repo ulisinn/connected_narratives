@@ -5,8 +5,7 @@ import ContentHeader from '../components/content_header';
 import ContentFooter from '../components/content_footer';
 
 const EnactingInclusion = () => {
-  return (<div id="enacting_inclusion" className="contentWrapper">
-    <div className="content">
+  return (<div id="enacting_inclusion" className="content">
       <ContentHeader text="Enacting inclusion"/>
       <ContentHeader text="(April 25th, 8.30 am – noon)"/>
       
@@ -36,19 +35,26 @@ const EnactingInclusion = () => {
       </div>
       <ContentHeader text="Description of the main audience"/>
       
-      <div className="contentBody">Given the range of the questions raised by our investigations at the interface of autism and biomusic,
+      <div className="contentBody">Given the range of the questions raised by our investigations at the interface of
+        autism and biomusic,
         it is clear that these concerns cannot be successfully addressed by any one discipline. Instead, they require
         a concerted effort across the entrenched silos of philosophy and practice, natural sciences and the humanities,
-        the plastic and the mechanical arts. As such, this project was designed as an integrated knowledge mobilization project
-        in order to disseminate knowledge multi-directionally across disciplines and sectors: citizen stakeholders, such as
-        parents, who possess experiential knowledge of what this technology could offer; academics holding both theoretical and technical knowledge; members of the tech industry and universal designers who can provide insight into best
-        practices; and local bureaucrats committed to creating more accessible public spaces. The days’ events will also be filmed by Productions Spectrum to create public service announcements to be distributed via the links and networks
+        the plastic and the mechanical arts. As such, this project was designed as an integrated knowledge mobilization
+        project
+        in order to disseminate knowledge multi-directionally across disciplines and sectors: citizen stakeholders, such
+        as
+        parents, who possess experiential knowledge of what this technology could offer; academics holding both
+        theoretical and technical knowledge; members of the tech industry and universal designers who can provide
+        insight into best
+        practices; and local bureaucrats committed to creating more accessible public spaces. The days’ events will also
+        be filmed by Productions Spectrum to create public service announcements to be distributed via the links and
+        networks
         of invited participants.
       </div>
       
-      <ContentFooter text='Interfacing Biomusic & Autism © 2017' />
+      <ContentFooter text='Interfacing Biomusic & Autism © 2017'/>
     </div>
-  </div>);
+  );
 };
 
 EnactingInclusion.propTypes = {

@@ -13,7 +13,7 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
 
 #contentWrapper {
   position: relative;
-  top: 60px;
+  margin-top: 1.5em;
   //z-index: -10;
   width: 100%;
 }
@@ -57,6 +57,9 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
 .contentBodyIt {
   font-style: italic;
 }
+.noTransform{
+  text-transform: none !important;
+}
 
 .contentFooter {
   font-family: $HelveticaNeue;
@@ -85,7 +88,7 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
 
 }
 
-.scheduleEvent {
+.scheduleEvent, .localPanelists {
   display: flex;
   flex-flow: row;
   margin-top: 1em;
@@ -99,8 +102,16 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
 
 .scheduleParticipant{
   display: inline;
+  min-width: 170px;
 }
 
+.panelistName{
+  text-transform: uppercase;
+  min-width: 200px;
+}
+.panelistOrg{
+  padding-left: 0.6em;
+}
 .scheduleTitle {
   margin-right: 0.5em;
 }
@@ -109,7 +120,20 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
   .scheduleEvent {
     flex-direction: column;
     margin-bottom: 0.2em;
+  }
 
+  .scheduleDay {
+    margin-bottom: 2em;
+
+    div {
+      padding-top: 3px;
+    }
+  }
+}
+@media all and (max-width: 640px) {
+  .localPanelists {
+    flex-direction: column;
+    margin-bottom: 0.2em;
   }
 
   .scheduleDay {

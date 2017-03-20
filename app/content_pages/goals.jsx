@@ -5,8 +5,8 @@ import ContentHeader from '../components/content_header';
 import ContentFooter from '../components/content_footer';
 
 const Goals = () => {
-  return (<div id="goals" className="contentWrapper">
-    <div className="content">
+  return (<div id="goals" className="content">
+      
       <ContentHeader text="Goals and objectives"/>
       
       <div className="contentBody">The overarching goal of this Connections Grant project is to generate socially
@@ -37,7 +37,8 @@ const Goals = () => {
       </div>
       
       <div className="contentBody">
-        Third, <span className="contentBodyIt">Interfacing biomusic and autism</span> offers a number of intersectoral and multidisciplinary training and
+        Third, <span className="contentBodyIt">Interfacing biomusic and autism</span> offers a number of intersectoral
+        and multidisciplinary training and
         mentoring opportunities for students and emerging scholars. In addition to the opportunity to engage 1 Preferred
         by insiders.<br/>
         In the public outreach event and closing reflections, students will also be able to experience biomusic and
@@ -50,7 +51,7 @@ const Goals = () => {
       
       <ContentFooter text='Interfacing Biomusic & Autism © 2017'/>
     </div>
-  </div>);
+  );
 };
 
 Goals.propTypes = {

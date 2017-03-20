@@ -3,7 +3,9 @@ import '../styles/main.scss';
 import React from 'react';
 
 const Patrons = () => {
-  return (<div id="patrons" className="contentWrapper"><div className="content">Patrons CONTENT</div></div>);
+  return (<div id="patrons" className="content">
+    Patrons CONTENT
+  </div>);
 };
 
 Patrons.propTypes = {
