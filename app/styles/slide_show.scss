@@ -1,0 +1,26 @@
+.slide_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.slide_1{
+  width:100%;
+  border: 1px solid green;
+}
+.slide_image_1{
+  //flex-basis: 45%;
+  width: 45%;
+  height: auto;
+}
+
+.slide_copy_1{
+  flex-basis: 55%;
+}
+
+.slide_text_1{
+  font-family: $PantonLightCaps;
+  font-size: 1.55em;
+  letter-spacing: -0.04em;
+}

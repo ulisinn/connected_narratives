@@ -27,6 +27,13 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
   //border: 1px solid red;
 }
 
+.contentHome{
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 .contentFull {
   position: relative;
   max-width: 940px;
