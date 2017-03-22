@@ -15,19 +15,24 @@ export  default class Slide_4 extends Component {
   
   render() {
     return (
-      <svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 817 330">
-        <image width="817" height="330" href={slide_bg_4}
-               x={0} y={0}>
-        </image>
-        <g transform="translate(320,110)">
-          {/*           <rect x="0" y="0" width="480" height="105" stroke="#ffffff" strokeWidth="1" fill="none"/>
-         <text className="slide_text_2" fill="#ffffff">
-            <tspan x={20} y={30}>Interfacing Biomusic & Autism blurs distinctions</tspan>
-            <tspan x={20} y={55}>between humans and technologies, emotions and art,</tspan>
-            <tspan x={20} y={80}>public and private experiences.</tspan>
-          </text>*/}
-        </g>
-      </svg>
+      <li>
+        <svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 817 330">
+          <image width="817" height="330" href={slide_bg_4}
+                 x={50} y={0}>
+          </image>
+          <g transform="translate(20,63)">
+            <text fill="#ffffff">
+              <tspan className="slide_text_4a" x={0} y={30}>INTERNATIONAL INITIATIVE</tspan>
+              <tspan className="slide_text_4a" x={0} y={65}>CONSISTING OF</tspan>
+              <tspan className="slide_text_4b" y={65}> 4 EVENTS</tspan>
+              <tspan className="slide_text_4b" x={0} y={100}>FROM APRIL 23-25, 2017</tspan>
+              <tspan className="slide_text_4a" x={0} y={135}>IN COMMUNITY, CULTURAL,</tspan>
+              <tspan className="slide_text_4a" x={0} y={170}>AND ACADEMIC VENUES</tspan>
+              <tspan className="slide_text_4a" x={0} y={205}>IN MONTREAL.</tspan>
+            </text>
+          </g>
+        </svg>
+      </li>
     );
   }
 }

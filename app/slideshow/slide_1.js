@@ -15,6 +15,7 @@ export  default class Slide_1 extends Component {
   
   render() {
     return (
+      <li>
         <svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 817 330">
           <image width="604" height="330" href={slide_bg_1}
                  x={-150} y={0}>
@@ -22,6 +23,7 @@ export  default class Slide_1 extends Component {
           <rect x="423" y="118" width="390" height="71" stroke="#e66722" strokeWidth="1" fill="none"/>
           <text className="slide_text_1" fill="#e66722" x={457} y={174}>INTERFACING BIOMUSIC &amp; AUTISM</text>
         </svg>
+      </li>
     );
   }
 }
