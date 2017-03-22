@@ -8,7 +8,7 @@ import React, {Component} from 'react';
 
 const slide_bg_4 = require('../images/slide_bg_4.png');
 
-export  default class Slide_4 extends Component {
+export  default class Slide_4_Mobile extends Component {
   constructor() {
     super();
   }
