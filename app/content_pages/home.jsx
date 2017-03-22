@@ -10,7 +10,10 @@ var MobileDetect = require('mobile-detect'),
   md = new MobileDetect(window.navigator.userAgent, 600);
 
 const Home = () => {
-  return (md.phone()) ? <div><Slide_4_Mobile /></div> : <div id="home" className="contentHome">
+  return (md.phone()) ? <div>
+    <Slide_4_Mobile />
+    <ContentFooter text='Interfacing Biomusic & Autism © 2017'/>
+  </div> : <div id="home" className="contentHome">
     <div className="carousel">
       <CarouselPanes/>
     </div>

@@ -18,9 +18,9 @@ export  default class Slide_4 extends Component {
       
       <svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 817 330">
         <image width="817" height="330" href={slide_bg_4}
-               x={300} y={0}>
+               x={305} y={0}>
         </image>
-        <g transform="translate(20,38)">
+        <g transform="translate(48,38)">
           <text fill="#ffffff">
             <tspan className="slide_text_mobile_4a" x={0} y={30}>INTERNATIONAL INITIATIVE</tspan>
             <tspan className="slide_text_mobile_4a" x={0} y={82}>CONSISTING OF</tspan>
