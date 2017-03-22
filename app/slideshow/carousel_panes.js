@@ -19,12 +19,14 @@ export default class CarouselPanes extends Component {
   
   componentDidMount() {
     console.log('CarouselPanes did mount', this.carouselPanes.id);
-    this.carouselPanes.addEventListener('animationend', () => this.shuffleCarousel());
+    this.carouselPanes.addEventListener('animationend', () => this.shuffleCarousel(),false);
     
   }
   
   componentWillUnmount() {
     console.log('CarouselPanes did unmount');
+    this.carouselPanes.removeEventListener('animationend', () => this.shuffleCarousel(),false);
+  
   }
   
   render() {
@@ -41,10 +43,8 @@ export default class CarouselPanes extends Component {
   
   shuffleCarousel() {
     this.carouselPanes.classList.remove('panes');
-    console.log('shuffleCarousel', this.panes,this.carouselPanes);
     let item = this.panes.splice(0, 1);
     this.panes.push(item[0]);
-    console.log('shuffleCarousel', this.panes);
     this.forceUpdate();
     setTimeout(() =>{
       this.carouselPanes.classList.add('panes');
