@@ -29,7 +29,7 @@ export const initialState = {
       id: uuid.v4(),
       url: 'social_spacial_inclusion',
       category: 'schedule',
-      title: 'CREATING SOCIAL-SPATIAL INCLUSION FOR AUTISM-INCLUSIVE CITIES',
+      title: 'EXPERIENCING (TECHNOLOGICAL) BARRIERS TO AND FACILITATORS OF SOCIAL-SPATIAL INCLUSION',
       short: 'SOCIAL-SPATIAL INCLUSION',
       date: '(APRIL 23RD, 1-4.30 PM)',
       dropdown: true,
@@ -57,7 +57,7 @@ export const initialState = {
       
       url: 'enacting_inclusion',
       category: 'schedule',
-      title: 'ENACTING INCLUSION',
+      title: 'TOWARDS ENACTING INCLUSION',
       short: 'ENACTING INCLUSION',
       date: '(APRIL 25TH, 8.30 AM – NOON)',
       dropdown: true,
