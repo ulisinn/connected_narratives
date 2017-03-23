@@ -6,7 +6,7 @@ import '../styles/main.scss';
 
 import React, {Component} from 'react';
 
-const slide_bg_1 = require('../images/slide_bg_1.jpg');
+const slide_bg_1 = require('../images/slide_bg_1.png');
 
 export  default class Slide_1 extends Component {
   constructor() {
