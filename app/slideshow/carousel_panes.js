@@ -50,8 +50,8 @@ export default class CarouselPanes extends Component {
     let item = this.panes.splice(0, 1);
     this.panes.push(item[0]);
     this.forceUpdate();
-/*    setTimeout(() => {
+    setTimeout(() => {
       this.carouselPanes.classList.add('panes');
-    }, 300);*/
+    }, 300);
   }
 }
