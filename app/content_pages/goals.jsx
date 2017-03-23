@@ -28,7 +28,8 @@ const Goals = () => {
       <div className="contentBody">
         Second, it provides a citizen-led, integrated knowledge mobilization across societal sectors and academic
         disciplines to dialogue about the potentialities of biomusic to (1) increase inclusion by increasing awareness
-        of neurodiversity, provide biofeedback to autists,1 and/or support intersubjectivity and communication across
+        of neurodiversity, provide biofeedback to autists <sup>[1]</sup>, and/or support intersubjectivity and
+        communication across
         linguistic and physiological divides as well as (2) increase stigma by othering, reaffirming norms, and/or
         focusing attention on individual, in contrast to attitudinal barriers to social exclusion. The knowledge to be
         exchanged in this face-to-face format includes: practical experiences of social inclusion/exclusion of families
@@ -48,7 +49,10 @@ const Goals = () => {
         participants—will include a range of students from universal design, art history, engineering, rehabilitation,
         communication/media studies, and transcultural psychiatry.
       </div>
-      
+      <hr width={300} style={{
+        maxWidth: 200, margin: 0, marginBottom: '0.5em',
+      }}/>
+      <p className="contentBody footnote"><sup>[1]</sup> Preferred by insiders.</p>
       <ContentFooter text='Interfacing Biomusic & Autism © 2017'/>
     </div>
   );
