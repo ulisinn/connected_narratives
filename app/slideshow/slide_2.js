@@ -17,7 +17,7 @@ export  default class Slide_2 extends Component {
     return (
       <li >
         <svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 817 330">
-          <image width="817" height="330" href={slide_bg_2}
+          <image width="817" height="330" xlinkHref={slide_bg_2}
                  x={0} y={0}>
           </image>
           <g transform="translate(340,118)">
