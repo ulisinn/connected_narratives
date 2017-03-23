@@ -105,6 +105,10 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
     color: $body_orange;
     line-height: 1.3em;
   }
+  a{
+    color: inherit;
+    text-decoration: underline;
+  }
 
 }
 

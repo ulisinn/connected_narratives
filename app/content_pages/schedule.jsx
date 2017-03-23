@@ -6,19 +6,20 @@ import ContentFooter from '../components/content_footer';
 
 const Schedule = () => {
   return (<div id="schedule" className="content">
-      <ContentHeader text="Preliminary Interfacing biomusic and autism schedule "/><br/>
-      <div>We’ve scheduled a 30-minute lead time each day for welcome and refreshments
-        to give people time to settle. Fifteen minute breaks are interspersed throughout.
-      </div>
-      <br/>
+      <ContentHeader text="schedule"/><br/>
+      
       <section className="scheduleDay">
         <header>Sunday, 23 April, 2017</header>
-        <header>Salon 1861</header>
+        <header><a href="http://lesalon1861.com/" target="_blank">LE SALON 1861</a><br/>(OPEN TO THE PUBLIC)</header>
+        
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">12.30-13.00</div>
+          <div className="scheduleTitle">WELCOME</div>
+        </div>
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">13.00-13.20</div>
           <div className="scheduleTitle">Autism Friendly Cities</div>
           <div className="scheduleParticipant helveticaBold">(Katalifos, Henderson)</div>
-        
         </div>
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">13.20-13:30</div>
@@ -40,7 +41,16 @@ const Schedule = () => {
       
       <section className="scheduleDay">
         <header>Monday, 24 April, 2017</header>
-        <header>Science Center & Museum of Fine Arts</header>
+        <header><a href="http://www.montrealsciencecentre.com/" target="_blank">MONTREAL SCIENCE CENTRE</a> & <a
+          href="https://www.mbam.qc.ca/en/" target="_blank">MONTREAL MUSEUM OF FINE ARTS</a><br/>(OPEN TO REGISTERED
+          PARTICIPANTS ONLY)
+        </header>
+  
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">8.00-8.30</div>
+          <div className="scheduleTitle">WELCOME</div>
+        </div>
+        
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">8.30-9.45</div>
           <div className="scheduleTitle">Biomusic, Physiological sensors & exhibit tour</div>
@@ -61,9 +71,9 @@ const Schedule = () => {
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">14.00-16.00</div>
           <div className="scheduleTitle">Tuning-in & Moving-with others</div>
-          <div className="scheduleParticipant helveticaBold">(30 participants) </div>
+          <div className="scheduleParticipant helveticaBold">(30 participants)</div>
         </div>
-  
+        
         <div className="scheduleEvent ">
           <div className="scheduleTime helveticaBold">16.00-17.00</div>
           <div className="scheduleTitle">Participant Reflections - Dinner</div>
@@ -72,7 +82,16 @@ const Schedule = () => {
       
       <section className="scheduleDay">
         <header>Tuesday, 25 April, 2017</header>
-        <header>CIRMMT</header>
+        <header><a href="http://www.cirmmt.org/" target="_blank">CENTRE OF INTERDISCIPLINARY RESEARCH IN MUSIC MEDIA AND
+          TECHNOLOGY</a><br/>(OPEN TO REGISTERED PARTICIPANTS
+          ONLY)
+        </header>
+  
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">8.00-8.30</div>
+          <div className="scheduleTitle">WELCOME</div>
+        </div>
+        
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">8.30-9.00</div>
           <div className="scheduleTitle">Tuning into youth on the spectrum</div>
@@ -94,8 +113,8 @@ const Schedule = () => {
           <div className="scheduleTitle">Large group discussion & future steps</div>
         </div>
       </section>
-      <ContentFooter text='Interfacing Biomusic & Autism © 2017' />
-  
+      <ContentFooter text='Interfacing Biomusic & Autism © 2017'/>
+    
     </div>
   );
 };
