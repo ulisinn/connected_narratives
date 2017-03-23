@@ -57,17 +57,22 @@ const ResearchDescription = () => {
       
       <hr/>
       
-      <span className="contentBody footnote">Baxter AJ, Brugha TS, Erskine HE, et al. (2014) The epidemiology and global
-        burden of autism spectrum disorders. Psychological Medicine.</span>
+      <span className="contentBody footnote">Baxter AJ, Brugha TS, Erskine HE, et al. (2014)<span
+        className="contentBodyIt">The epidemiology and global
+        burden of autism spectrum disorders.</span> Psychological Medicine.</span>
       <br/>
-      <span className="contentBody footnote">Blain-Moraes S, Chesser S, Kingsnorth S, et al. (2013) Biomusic: A novel technology for revealing the personhood of people with profound multiple disabilities. Augmentative and Alternative Communication Early  Online: 1-15.</span>
+      <span className="contentBody footnote">Blain-Moraes S, Chesser S, Kingsnorth S, et al. (2013)<span
+        className="contentBodyIt">Biomusic: A novel technology for revealing the personhood of people with profound multiple disabilities.</span> Augmentative and Alternative Communication Early  Online: 1-15.</span>
       
       <br/>
-      <span className="contentBody footnote">Burke K. (1941/1973) The philosophy of literary form: studies in symbolic action, Los Angeles: University of California Press.</span>
+      <span className="contentBody footnote">Burke K. (1941/1973)<span
+        className="contentBodyIt">The philosophy of literary form: studies in symbolic action</span>, Los Angeles: University of California Press.</span>
       <br/>
-      <span className="contentBody footnote">Davidson J. (2010) 'It cuts both ways': A relational approach to access and accomodation for autism. Social Science & Medicine 70: 305-312.</span>
+      <span className="contentBody footnote">Davidson J. (2010)<span
+        className="contentBodyIt">'It cuts both ways': A relational approach to access and accomodation for autism.</span> Social Science & Medicine 70: 305-312.</span>
       <br/>
-      <span className="contentBody footnote">Gilman SL. (1985) Difference and pathology: stereotypes of sexuality, race, and madness, Ithaca, NY: Cornell University Press.</span>
+      <span className="contentBody footnote">Gilman SL. (1985) <span
+        className="contentBodyIt">Difference and pathology: stereotypes of sexuality, race, and madness</span>, Ithaca, NY: Cornell University Press.</span>
       <br/>
       <span
         className="contentBody footnote">Gilman SL. (2014)<span
