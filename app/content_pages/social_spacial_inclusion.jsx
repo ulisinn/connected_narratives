@@ -1,6 +1,8 @@
 import '../styles/main.scss';
 
-import React from 'react';
+import React, {Component} from 'react';
+import {Link} from 'react-router';
+
 import ContentHeader from '../components/content_header';
 import ContentFooter from '../components/content_footer';
 
@@ -33,6 +35,11 @@ const SocialSpatialInclusion = () => {
           The days' events will also be filmed by <span className="contentBodyEm"><a href="http://productionsspectrum.com/en/" target="_blank">Productions Spectrum</a></span> to create public service announcements to be
           distributed via the links and networks of invited participants.
         </p>
+        <Link to={'Videos'}
+  
+        >
+            <p className="helveticaBold">{'-> To Videos'}</p>
+        </Link>);
       </div>
       {/*
        <ContentHeader text="Local panelists (including parents of children/youth on the spectrum)"/>

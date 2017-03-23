@@ -17,6 +17,7 @@ import Patrons from './content_pages/patrons';
 import ResearchDescription from './content_pages/research_description';
 import Schedule from './content_pages/schedule';
 import SocialSpatialInclusion from './content_pages/social_spacial_inclusion';
+import Videos from './content_pages/videos';
 
 export default (
   <Route path="/" component={Main}>
@@ -31,6 +32,7 @@ export default (
     <Route path="research_description" component={ResearchDescription}/>
     <Route path="schedule" component={Schedule}/>
     <Route path="social_spacial_inclusion" component={SocialSpatialInclusion}/>
+    <Route path="videos" component={Videos}/>
     <Route path="*" component={Home}/>
   </Route>
 );

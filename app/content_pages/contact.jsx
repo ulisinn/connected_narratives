@@ -13,16 +13,30 @@ const Contact = () => {
         
         <div id="contactAddresses">
           <div className="contactAddress">
-            <p>Dr. Melissa Park</p>
-            <p>addres[at]someurl.com</p>
+            <p >Dr. Melissa Park</p>
+            <p className="contactEmail"><span className="contentBodyEm">melissa.park</span>[at]<span
+              className="contentBodyEm">mc
+              gill</span>[.]<span className="contentBodyEm">ca</span></p>
           </div>
           <div className="contactAddress">
-            <p>Dr. Melissa Park</p>
-            <p>addres[at]someurl.com</p>
+            <p>Stefanie Blain-Moraes</p>
+            <p className="contactEmail">
+              <span className="contentBodyEm">stefanie.blain-moraes</span>[at]<span className="contentBodyEm">mc
+              gill</span>[.]<span className="contentBodyEm">ca</span>
+              <p>
+                <a href="http://www.moraeslab.com/biapt/" target="_blank">www.moraeslab.com/biapt/</a>
+              </p>
+            </p>
           </div>
           <div className="contactAddress">
-            <p>Dr. Melissa Park</p>
-            <p>addres[at]someurl.com</p>
+            <p>Tamar Tembeck</p>
+            <p className="contactEmail">
+              <span className="contentBodyEm">tamar.tembeck</span>[at]<span className="contentBodyEm">mc
+              gill</span>[.]<span className="contentBodyEm">ca</span>
+              <p>
+                <a href="http://media.mcgill.ca/en/content/tembeck-tamar" target="_blank">media.mcgill.ca/en/content/tembeck-tamar</a>
+              </p>
+            </p>
           </div>
         </div>
       </div>
