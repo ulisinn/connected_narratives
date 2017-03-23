@@ -70,33 +70,47 @@ const ResearchDescription = () => {
       <span className="contentBody footnote">Gilman SL. (1985) Difference and pathology: stereotypes of sexuality, race, and madness, Ithaca, NY: Cornell University Press.</span>
       <br/>
       <span
-        className="contentBody footnote">Gilman SL. (2014) Madness as Disability. History of Psychiatry 25: 441-449.</span>
+        className="contentBody footnote">Gilman SL. (2014)<span
+        className="contentBodyIt">Madness as Disability.</span> History of Psychiatry 25: 441-449.</span>
       <br/>
-      <span className="contentBody footnote">Keane W. (2015) Ethical Life: Its Natural and Social Histories, Princeton, NJ: Princeton University Press.</span>
+      <span className="contentBody footnote">Keane W. (2015) <span
+        className="contentBodyIt">Ethical Life: Its Natural and Social Histories</span>, Princeton, NJ: Princeton University Press.</span>
       <br/>
-      <span className="contentBody footnote">Kinnear SH, Link BG, Ballan MS, et al. (2016) Understanding the experience of stigma for parents of children with autism spectrum disorder and the role stigma plays in families' lives. Journal of Autism and Developmental Disorders 46: 942-953.</span>
+      <span className="contentBody footnote">Kinnear SH, Link BG, Ballan MS, et al. (2016) <span
+        className="contentBodyIt">Understanding the experience of stigma for parents of children with autism spectrum disorder and the role stigma plays in families' lives.</span>Journal of Autism and Developmental Disorders 46: 942-953.</span>
       <br/>
-      <span className="contentBody footnote">Kirmayer LJ and Ramstead MJD. (Forthcoming) Embodiment and enactment in cultural psychiatry. In: Durt C and Fuchs T (eds) Embodiment, Enactment and Culture: Investigating the Constitution of the Shared World. Cambridge, MA: MIT Press.</span>
+      <span className="contentBody footnote">Kirmayer LJ and Ramstead MJD. (Forthcoming) <span
+        className="contentBodyIt">Embodiment and enactment in cultural psychiatry.</span> In: Durt C and Fuchs T (eds) Embodiment, Enactment and Culture: Investigating the Constitution of the Shared World. Cambridge, MA: MIT Press.</span>
       <br/>
-      <span className="contentBody footnote">Lambek M. (2015) The Ethical Condition: Essays on Action, Person, and Values, Chicago, IL: University of Chicago Press.</span>
+      <span className="contentBody footnote">Lambek M. (2015) <span
+        className="contentBodyIt">The Ethical Condition: Essays on Action, Person, and Values</span>, Chicago, IL: University of Chicago Press.</span>
       <br/>
-      <span className="contentBody footnote">Latour B. (1999) Pandora’s Hope: Essays on the Reality of Science Studies, Cambridge, MA: Harvard University Press.</span>
+      <span className="contentBody footnote">Latour B. (1999)<span
+        className="contentBodyIt"> Pandora’s Hope: Essays on the Reality of Science Studies</span>, Cambridge, MA: Harvard University Press.</span>
       <br/>
-      <span className="contentBody footnote">Massumi B. (2002) Parables of the Virtual: Movement, Affect, Sensation, Durham, NC: Duke University Press.</span>
+      <span className="contentBody footnote">Massumi B. (2002) <span
+        className="contentBodyIt">Parables of the Virtual: Movement, Affect, Sensation</span>, Durham, NC: Duke University Press.</span>
       <br/>
-      <span className="contentBody footnote">Mattingly C. (2012) Moral Selves and Moral Scenes: Narrative Experiments in Everyday Life. Ethnos: Journal of Anthropology 78: 301-327.</span>
+      <span className="contentBody footnote">Mattingly C. (2012) <span
+        className="contentBodyIt">Moral Selves and Moral Scenes: Narrative Experiments in Everyday Life.</span> Ethnos: Journal of Anthropology 78: 301-327.</span>
       <br/>
-      <span className="contentBody footnote">Mattingly C. (2014) Moral Laboratories: Family Peril and the Struggle for a Good Life, Oakland: University of California Press.</span>
+      <span className="contentBody footnote">Mattingly C. (2014) <span
+        className="contentBodyIt">Moral Laboratories: Family Peril and the Struggle for a Good Life</span>, Oakland: University of California Press.</span>
       <br/>
-      <span className="contentBody footnote">Prince DE. (2010) An Exceptional Path: An Ethnographic Narrative Reflecting on Autistic Parenthood from Evolutionalry, Cultural and Spiritual Perspectives. Ethos 38: 56-68.</span>
+      <span className="contentBody footnote">Prince DE. (2010) <span
+        className="contentBodyIt">An Exceptional Path: An Ethnographic Narrative Reflecting on Autistic Parenthood from Evolutionalry, Cultural and Spiritual Perspectives.</span> Ethos 38: 56-68.</span>
       <br/>
-      <span className="contentBody footnote">Prince-Hughes D. (2013) Circus of Souls: How I Discovered We are All Freaks Passing as Normal: CreateSpace Independent Publishing Platform.</span>
+      <span className="contentBody footnote">Prince-Hughes D. (2013) <span
+        className="contentBodyIt">Circus of Souls: How I Discovered We are All Freaks Passing as Normal.</span> CreateSpace Independent Publishing Platform.</span>
       <br/>
-      <span className="contentBody footnote">Solomon O. (2010) Sense and the senses: Anthropology and the study of autism. Annual Review of Anthropology 39: 241-259.</span>
+      <span className="contentBody footnote">Solomon O. (2010) <span
+        className="contentBodyIt">Sense and the senses: Anthropology and the study of autism.</span> Annual Review of Anthropology 39: 241-259.</span>
       <br/>
-      <span className="contentBody footnote">Sterne J. (2012) The Sound Studies Reader, New York: Routledge.</span>
+      <span className="contentBody footnote">Sterne J. (2012) <span
+        className="contentBodyIt">The Sound Studies Reader</span>, New York: Routledge.</span>
       <br/>
-      <span className="contentBody footnote">Zizzo N, Bell E and Racine E. (2016) What is Everyday Ethics? A Review and a Proposal for an Integrative Concept. The Journal of Clinical Ethics 27: 117-128.</span>
+      <span className="contentBody footnote">Zizzo N, Bell E and Racine E. (2016) <span
+        className="contentBodyIt">What is Everyday Ethics? A Review and a Proposal for an Integrative Concept.</span> The Journal of Clinical Ethics 27: 117-128.</span>
       
       <p>{'\u00A0'}</p>
       <ContentFooter text='Interfacing Biomusic & Autism © 2017'/>
