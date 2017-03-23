@@ -31,7 +31,7 @@ export const initialState = {
       category: 'schedule',
       title: 'EXPERIENCING (TECHNOLOGICAL) BARRIERS TO AND FACILITATORS OF SOCIAL-SPATIAL INCLUSION',
       short: 'SOCIAL-SPATIAL INCLUSION',
-      date: '(APRIL 23RD, 1-4.30 PM)',
+      date: '(APRIL 23RD, 12:30-4.30 PM)',
       dropdown: true,
     },
     {
@@ -40,7 +40,7 @@ export const initialState = {
       category: 'schedule',
       title: 'REFLECTING ON THE POTENTIALITIES OF BIOMUSIC',
       short: 'POTENTIALITIES OF BIOMUSIC',
-      date: '(APRIL 24TH, 8.30 AM – NOON)',
+      date: '(APRIL 24TH, 8.00 AM – NOON)',
       dropdown: true,
     },
     {
@@ -49,7 +49,7 @@ export const initialState = {
       category: 'schedule',
       title: 'EXPERIENCING THE AESTHETICS OF BIOMUSIC',
       short: 'AESTHETICS OF BIOMUSIC',
-      date: '(APRIL 24TH, 8.30 AM – NOON)',
+      date: '(APRIL 24TH, 2-5 PM)',
       dropdown: true,
     },
     {
@@ -59,7 +59,7 @@ export const initialState = {
       category: 'schedule',
       title: 'TOWARDS ENACTING INCLUSION',
       short: 'ENACTING INCLUSION',
-      date: '(APRIL 25TH, 8.30 AM – NOON)',
+      date: '(APRIL 25TH, 8.00 AM – NOON)',
       dropdown: true,
     },
     {
