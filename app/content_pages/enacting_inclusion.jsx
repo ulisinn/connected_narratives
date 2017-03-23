@@ -7,7 +7,7 @@ import ContentFooter from '../components/content_footer';
 const EnactingInclusion = () => {
   return (<div id="enacting_inclusion" className="content">
       <ContentHeader text="Enacting inclusion"/>
-      <ContentHeader text="(April 25th, 8.30 am – noon)"/>
+      <ContentHeader text="(April 25th, 8:30 – noon)"/>
       
       <div className="contentBody">Our initiative for social inclusion will close with a panel discussion at the <span
         className="contentBodyEm contentBodyIt">Centre for Interdisciplinary Research
@@ -33,24 +33,38 @@ const EnactingInclusion = () => {
         education, workplaces),
         future steps, and re-convene to share discussions and confirm future partnerships.
       </div>
-      <ContentHeader text="Description of the main audience"/>
+    
+      <ContentHeader text="Emerging scholars reFLections:"/>
+    
+      <section className="scheduleDay">
+        <div className="localPanelists">
+          <div className="panelistName"><span className="helveticaBold">• Rossio Ochoa-Motta</span> <p>(Science Technology
+            Studies)</p>
+          </div>
+          <div className="panelistOrg helvetica contentBodyIt">Attuning to Disability through Biomusic:<br/>What are the
+            New Ethical (Translational) Challenges? Communication, Invasion, Recreation?
+          </div>
+        </div>
       
-      <div className="contentBody">Given the range of the questions raised by our investigations at the interface of
-        autism and biomusic,
-        it is clear that these concerns cannot be successfully addressed by any one discipline. Instead, they require
-        a concerted effort across the entrenched silos of philosophy and practice, natural sciences and the humanities,
-        the plastic and the mechanical arts. As such, this project was designed as an integrated knowledge mobilization
-        project
-        in order to disseminate knowledge multi-directionally across disciplines and sectors: citizen stakeholders, such
-        as
-        parents, who possess experiential knowledge of what this technology could offer; academics holding both
-        theoretical and technical knowledge; members of the tech industry and universal designers who can provide
-        insight into best
-        practices; and local bureaucrats committed to creating more accessible public spaces. The days’ events will also
-        be filmed by Productions Spectrum to create public service announcements to be distributed via the links and
-        networks
-        of invited participants.
-      </div>
+        <div className="localPanelists">
+          <div className="panelistName"><span className="helveticaBold">• Ariel Cascio</span> <p>(Cultural
+            Anthropology)</p>
+          </div>
+          <div className="panelistOrg helvetica contentBodyIt">Reflections on Biomusic from an Anthropology of Autism
+            Perspective
+          </div>
+        </div>
+      
+        <div className="localPanelists">
+          <div className="panelistName"><span className="helveticaBold">• Gail Teachman</span>
+            <p>(Rehabilitation)</p>
+          </div>
+          <div className="panelistOrg helvetica contentBodyIt">(Re)Locating Voice: Dialogical connections, communication
+            and autism
+          </div>
+        </div>
+    
+      </section>
       
       <ContentFooter text='Interfacing Biomusic & Autism © 2017'/>
     </div>

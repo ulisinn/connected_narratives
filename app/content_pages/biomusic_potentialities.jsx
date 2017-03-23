@@ -8,7 +8,7 @@ const BiomusicPotentialities = () => {
   return (
     <div id="biomusic_potentialities" className="content">
       <ContentHeader text="ReFLecting on the Potentialities of Biomusic"/>
-      <ContentHeader text="(April 24th, 8.30 am – noon)"/>
+      <ContentHeader text="(April 24th, 8:30 am – noon)"/>
       <div className="contentBody">We will begin our theoretical exploration of biomusic technology at the <span
         className="helveticaBold">Montreal Science Center</span>, which hosts
         a permanent exhibition featuring biomusic, “Mes émotions sont à fleur de peau” (opening February 2017).
@@ -29,11 +29,11 @@ const BiomusicPotentialities = () => {
       
       <section className="scheduleDay">
         <div className="localPanelists">
-          <div className="panelistName"><span className="helveticaBold">• Jonathan Sternebr</span> <p>(Media
+          <div className="panelistName"><span className="helveticaBold">• Jonathan Sternebr</span> <p>(Communications
             Studies)</p>
             <p> McGill University, CA</p>
           </div>
-          <div className="panelistOrg helvetica contentBodyIt">Bodies, Perception, Power</div>
+          <div className="panelistOrg helvetica contentBodyIt">TBA</div>
         </div>
         
         <div className="localPanelists">
