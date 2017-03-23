@@ -26,7 +26,7 @@ export  default class Slide_2 extends Component {
               <tspan x={14} y={30}>Biomusic is an innovative technology</tspan>
               <tspan x={14} y={55}>that translates the physiological</tspan>
               <tspan x={14} y={80}>representations of emotional</tspan>
-              <tspan x={14} y={105}>and mental states into musical output</tspan>
+              <tspan x={14} y={105}>and mental states into musical output.</tspan>
             </text>
           </g>
         </svg>

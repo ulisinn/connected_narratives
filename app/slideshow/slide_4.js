@@ -26,9 +26,11 @@ export  default class Slide_4_Mobile extends Component {
               <tspan className="slide_text_4a" x={0} y={65}>CONSISTING OF</tspan>
               <tspan className="slide_text_4b" y={65}> 4 EVENTS</tspan>
               <tspan className="slide_text_4b" x={0} y={100}>FROM APRIL 23-25, 2017</tspan>
-              <tspan className="slide_text_4a" x={0} y={135}>IN COMMUNITY, CULTURAL,</tspan>
-              <tspan className="slide_text_4a" x={0} y={170}>AND ACADEMIC VENUES</tspan>
-              <tspan className="slide_text_4a" x={0} y={205}>IN MONTREAL.</tspan>
+              <tspan className="slide_text_4a" x={0} y={135}>IN COMMUNITY,</tspan>
+              <tspan className="slide_text_4a" x={0} y={170}>CULTURAL AND </tspan>
+              <tspan className="slide_text_4a" x={0} y={205}>ACADEMIC VENUES</tspan>
+              <tspan className="slide_text_4b" x={300} y={205}>IN</tspan>
+              <tspan className="slide_text_4b" x={0} y={240}>MONTREAL.</tspan>
             </text>
           </g>
         </svg>
