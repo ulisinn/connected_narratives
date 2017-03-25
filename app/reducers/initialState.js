@@ -102,9 +102,8 @@ export const initialState = {
       date: '',
       dropdown: false,
     },
-    {
+/*    {
       id: uuid.v4(),
-      
       url: 'en',
       category: 'en',
       title: 'english',
@@ -119,7 +118,7 @@ export const initialState = {
       short: '',
       date: '',
       dropdown: false,
-    },
+    },*/
     {
       id: uuid.v4(),
       url: '',
