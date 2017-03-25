@@ -14,29 +14,45 @@ const Schedule = () => {
         
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">12.30-13.00</div>
-          <div className="scheduleTitle">WELCOME</div>
+          <div className="scheduleTitle">Refreshments and welcome</div>
         </div>
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">13.00-13.20</div>
-          <div className="scheduleTitle">Autism Friendly Cities</div>
-          <div className="scheduleParticipant helveticaBold">(Katalifos, Henderson)</div>
+          <div className="scheduleTitle">Introductions <br/>
+            <span className="scheduleParticipant helveticaBold">(Dr. Melissa Park, Tamar Tembeck, Stefanie Blain-Moraes + Eric Lewis)</span>
+          </div>
         </div>
         <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">13.20-13:30</div>
-          <div className="scheduleTitle">Social-spatial inclusion: What’s gaze got to do with it?</div>
-          <div className="scheduleParticipant helveticaBold">(Lee, Park)</div>
+          <div className="scheduleTime helveticaBold">13.20-13:45</div>
+          <div className="scheduleTitle">Youth reflections on biomusic</div>
         </div>
         
-        <div className="scheduleEvent ">
-          <div className="scheduleTime helveticaBold">13.30-15.15</div>
-          <div className="scheduleTitle">What’s at stake?</div>
-          <div className="scheduleParticipant helveticaBold">(Community Panels)</div>
-        
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">13.45-14.45</div>
+          <div className="scheduleTitle">Challenges encountered on the path to inclusion <br/>
+            <span className="scheduleParticipant helveticaBold">(Moderator: Henderson; Panelists: Maccarone, Lajeunesse, Senechal, TBA)</span>
+          </div>
         </div>
+        
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">14.45-15.00</div>
+          <div className="scheduleTitle">Break</div>
+        </div>
+        
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">15.15-16.00</div>
-          <div className="scheduleTitle">Public Open Forum & Closing Remarks</div>
+          <div className="scheduleTitle">Experiences of technology as a barrier or facilitator <br/>
+            <span className="scheduleParticipant helveticaBold">(Moderator:Poldma; Panelists: Miyake, Katalifos, Spectrum Productions – 2 participants)</span>
+          </div>
         </div>
+        
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">16.00-16.15</div>
+          <div className="scheduleTitle">Closing Remarks<br/>
+            <span className="scheduleParticipant helveticaBold">(Katalifos, Henderson)</span>
+          </div>
+        </div>
+      
       </section>
       
       <section className="scheduleDay">
@@ -45,38 +61,87 @@ const Schedule = () => {
           href="https://www.mbam.qc.ca/en/" target="_blank">MONTREAL MUSEUM OF FINE ARTS</a><br/>(OPEN TO REGISTERED
           PARTICIPANTS ONLY)
         </header>
-  
+        
         <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">8.00-8.30</div>
-          <div className="scheduleTitle">WELCOME</div>
+          <div className="scheduleTime helveticaBold">8.00-8.45</div>
+          <div className="scheduleTitle">Welcome & Tour of Biomusic Installation</div>
         </div>
         
         <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">8.30-9.45</div>
-          <div className="scheduleTitle">Biomusic, Physiological sensors & exhibit tour</div>
-          <div className="scheduleParticipant helveticaBold">(Blain-Moraes, Bender)</div>
+          <div className="scheduleTime helveticaBold">8.45-9.15</div>
+          <div className="scheduleTitle">Biomusic<br/>
+            <span className="scheduleParticipant helveticaBold">(BLAIN-MORAES, GROND)</span></div>
         
         </div>
+        
         <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">9.45-noon</div>
-          <div className="scheduleTitle">Potentialities Keynotes</div>
-          <div className="scheduleParticipant helveticaBold">(Sterne, Lawlor, Kirmayer, Mattingly)</div>
+          <div className="scheduleTime helveticaBold">9.30-10.20</div>
+          <div className="scheduleTitle">Potentialities Keynotes I:<br/>
+            <span className="scheduleTitle">Musical Affordances and the Technologies of Presence</span><br/>
+            <span className="scheduleParticipant helveticaBold">(Kirmayer)</span><br/>
+            <span className="scheduleTitle">Experiencing Engagement: Embodied, Agentive, Interpersonal, Familial & Community Dimensions</span><br/>
+            <span className="scheduleParticipant helveticaBold">(LAWLOR))</span>
+          </div>
+        </div>
+        
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">10.20-10.35</div>
+          <div className="scheduleTitle">Q/A</div>
+        </div>
+        
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">10.35-10.55</div>
+          <div className="scheduleTitle">Break</div>
+        </div>
+        
+        
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">10.55-11.45</div>
+          <div className="scheduleTitle">Potentialities Keynotes II:<br/>
+            <span className="scheduleTitle">TBA</span><br/>
+            <span className="scheduleParticipant helveticaBold">(STERNE))</span><br/>
+            <span className="scheduleTitle">“I am a Fossil”: Autism, Stigma and the Ethics of Care</span><br/>
+            <span className="scheduleParticipant helveticaBold">(MATTINGLY)))</span>
+          </div>
+        </div>
+        
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">11.45-noon</div>
+          <div className="scheduleTitle">Q/A</div>
         </div>
         
         <div className="scheduleEvent ">
-          <div className="scheduleTime helveticaBold">12.30-14.00</div>
-          <div className="scheduleTitle">Lunch</div>
+          <div className="scheduleTime helveticaBold">noon-14.00</div>
+          <div className="scheduleTitle">Migration to MBAM & Lunch</div>
         </div>
         
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">14.00-16.00</div>
-          <div className="scheduleTitle">Tuning-in & Moving-with others</div>
-          <div className="scheduleParticipant helveticaBold">(30 participants)</div>
+          <div className="scheduleTitle">Tuning-in & Moving-with others <br/>
+            <span className="scheduleParticipant helveticaBold">(30 participants)</span></div>
+        </div>
+        
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">16.00-16.15</div>
+          <div className="scheduleTitle">Break</div>
+        </div>
+        
+        
+        <div className="scheduleEvent ">
+          <div className="scheduleTime helveticaBold">16.15-16.30</div>
+          <div className="scheduleTitle">Aesthetic Potentialities<br/>
+            <span className="scheduleParticipant helveticaBold">(Lee, Tembeck)</span>
+          </div>
         </div>
         
         <div className="scheduleEvent ">
-          <div className="scheduleTime helveticaBold">16.00-17.00</div>
-          <div className="scheduleTitle">Participant Reflections - Dinner</div>
+          <div className="scheduleTime helveticaBold">16.30-17.00</div>
+          <div className="scheduleTitle">Participant Reflections - Q/A</div>
+        </div>
+        
+        <div className="scheduleEvent ">
+          <div className="scheduleTime helveticaBold">17.00-19:00</div>
+          <div className="scheduleTitle">Reception 5-7 (Location TBA)</div>
         </div>
       </section>
       
@@ -86,7 +151,7 @@ const Schedule = () => {
           TECHNOLOGY</a><br/>(OPEN TO REGISTERED PARTICIPANTS
           ONLY)
         </header>
-  
+        
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">8.00-8.30</div>
           <div className="scheduleTitle">WELCOME</div>
