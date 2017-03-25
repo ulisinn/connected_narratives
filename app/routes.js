@@ -14,7 +14,7 @@ import Description from './content_pages/description';
 import EnactingInclusion from './content_pages/enacting_inclusion';
 import Goals from './content_pages/goals';
 import Patrons from './content_pages/patrons';
-import ResearchDescription from './content_pages/research_description';
+import ResearchDescription from './content_pages/project_rationale';
 import Schedule from './content_pages/schedule';
 import SocialSpatialInclusion from './content_pages/social_spacial_inclusion';
 import Videos from './content_pages/videos';
