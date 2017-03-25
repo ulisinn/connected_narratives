@@ -80,7 +80,7 @@ const Schedule = () => {
             <span className="scheduleTitle">Musical Affordances and the Technologies of Presence</span><br/>
             <span className="scheduleParticipant helveticaBold">(Kirmayer)</span><br/>
             <span className="scheduleTitle">Experiencing Engagement: Embodied, Agentive, Interpersonal, Familial & Community Dimensions</span><br/>
-            <span className="scheduleParticipant helveticaBold">(LAWLOR))</span>
+            <span className="scheduleParticipant helveticaBold">(LAWLOR)</span>
           </div>
         </div>
         
@@ -99,9 +99,9 @@ const Schedule = () => {
           <div className="scheduleTime helveticaBold">10.55-11.45</div>
           <div className="scheduleTitle">Potentialities Keynotes II:<br/>
             <span className="scheduleTitle">TBA</span><br/>
-            <span className="scheduleParticipant helveticaBold">(STERNE))</span><br/>
+            <span className="scheduleParticipant helveticaBold">(STERNE)</span><br/>
             <span className="scheduleTitle">“I am a Fossil”: Autism, Stigma and the Ethics of Care</span><br/>
-            <span className="scheduleParticipant helveticaBold">(MATTINGLY)))</span>
+            <span className="scheduleParticipant helveticaBold">(MATTINGLY)</span>
           </div>
         </div>
         
