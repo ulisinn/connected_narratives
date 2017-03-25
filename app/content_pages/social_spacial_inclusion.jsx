@@ -12,14 +12,12 @@ const SocialSpatialInclusion = () => {
       <ContentHeader text="Creating social-spatial inclusion for autism-inclusive cities"/>
       <ContentHeader text="(April 23rd, 1:00 - 16:30)"/>
       <div className="contentBody">Our outreach initiative begins with a public town hall to be held at the <span
-        className="contentBodyIt">Salon 1861</span>,
-        an inclusive social innovation space
-        located at in Montreal’s Little Burgundy <span className="contentBodyEm">(<a href="http://www.lesalon1861.com"
-                                                                                     target="_blank">www.lesalon1861.com</a>)</span>.
+        className="contentBodyIt">Salon 1861</span>, an inclusive social innovation space located at in Montreal’s
+        Little Burgundy <span className="contentBodyEm">(<a href="http://www.lesalon1861.com" target="_blank">www.lesalon1861.com</a>)</span>.
         Selected in collaboration with the <span className="contentBodyIt">Giant Steps Foundation</span>, panelists will
         include persons on the spectrum as well as parents of children and youth diagnosed with autism who hold key
         positions as employers, administrators, and universal designers in academic, civic and cultural institutions.
-        <br/>After an introduction by Eric Lewis, <span className="contentBodyIt"> Director of the Institute for the Public Life of Arts and Ideas (IPLAI)</span>,
+        <br/><br/>After an introduction by Eric Lewis, <span className="contentBodyIt"> Director of the Institute for the Public Life of Arts and Ideas (IPLAI)</span>,
         there will be two community panels:
         <p>{'\u00A0'}</p>
         <p>
@@ -34,9 +32,7 @@ const SocialSpatialInclusion = () => {
         <p>
           The days' events will also be filmed by <span className="contentBodyEm"><a
           href="http://productionsspectrum.com/en/" target="_blank">Productions Spectrum</a></span> to create public
-          service announcements to be
-          distributed via the links and networks of invited participants: <Link to={'Videos'}
-                                                                                className="helveticaBold">{'videos (coming soon)'}</Link>.
+          service announcements <Link to={'Videos'} className="helveticaBold">{'(Coming soon)'}</Link>.
         </p>
       
       </div>
