@@ -9,22 +9,22 @@ const BiomusicPotentialities = () => {
     <div id="biomusic_potentialities" className="content">
       <ContentHeader text="ReFLecting on the Potentialities of Biomusic"/>
       <ContentHeader text="(April 24th, 8:30 am – noon)"/>
+      
       <div className="contentBody">We will begin our theoretical exploration of biomusic technology at the <span
-        className="helveticaBold">Montreal Science Center</span>, which hosts
-        a permanent exhibition featuring biomusic, “Mes émotions sont à fleur de peau” (opening February 2017).
-        Co-applicant Stefanie Blain-Moraes will present a history and technical background of biomusic to situate the
-        group
-        to the realities, possibilities and limitations of this technology. Daniel Bender, an industry representative
-        from Empatica
-        will then introduce issues related to commercializing technology for physiological monitoring. Engineering
-        students under
-        Dr. Blain-Moraes will guide participants through the biomusic exhibit, which gives a first-hand experience of
-        the technology.
-        The group will then re-convene to hear a series of keynote presentations given by leading scholars in their
-        respective fields
-        on the potentialities as well as everyday ethical implications at the interface of autism and biotechnology.
-        A question and answer period will lead into time for continued discussion during an extended lunch.
+        className="helveticaBold contentBodyIt">Montreal Science Center</span>, which hosts a permanent exhibition
+        featuring biomusic,
+        <a href="http://publications.mcgill.ca/medenews/2017/02/28/feelingsare-
+        more-than-skin-deep-mes-emotions-sont-a-fleur-de-peau/" target="_blank" className="helveticaBold"> “Mes émotions
+          sont à fleur de peau”</a>.
+        <br/>Co-applicant Stefanie Blain-Moraes and Florian Grond will present a history and technical background of
+        biomusic to situate the group to the realities, possibilities and limitations of this technology. Daniel Bender,
+        an industry representative from Empatica will then introduce issues related to commercializing technology for
+        physiological monitoring. Engineering students under Dr. Blain-Moraes will guide participants through the
+        biomusic exhibit, which gives a first-hand experience of the technology. The group will then re-convene to hear
+        a series of keynote presentations given by leading scholars in their respective fields on the potentialities as
+        well as everyday ethical implications at the interface of autism and biotechnology.
       </div>
+      
       <ContentHeader text="Potentialities & Everyday Ethics Keynote Speakers:"/>
       
       <section className="scheduleDay">

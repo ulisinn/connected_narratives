@@ -25,7 +25,9 @@ const Contact = () => {
               gill</span>[.]<span className="contentBodyEm">ca</span>
               <p>
                 <a href="http://www.moraeslab.com/biapt/" target="_blank">www.moraeslab.com/biapt/</a>
-              </p>
+              </p>              <p>
+              <a href="http://www.moraeslab.com/biapt/research/mes-emotions-sont-fleur-de-peau/" target="_blank">Mes émotions sont à fleur de peau</a>
+            </p>
             </p>
           </div>
           <div className="contactAddress">
