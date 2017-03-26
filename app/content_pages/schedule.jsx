@@ -8,6 +8,8 @@ const Schedule = () => {
   return (<div id="schedule" className="content">
       <ContentHeader text="schedule"/><br/>
       
+      {/*SUNDAY*/}
+      
       <section className="scheduleDay">
         <header>Sunday, 23 April, 2017</header>
         <header><a href="http://lesalon1861.com/" target="_blank">LE SALON 1861</a><br/>(OPEN TO THE PUBLIC)</header>
@@ -52,8 +54,9 @@ const Schedule = () => {
             <span className="scheduleParticipant helveticaBold">(Katalifos, Henderson)</span>
           </div>
         </div>
-      
       </section>
+      
+      {/*MONDAY*/}
       
       <section className="scheduleDay">
         <header>Monday, 24 April, 2017</header>
@@ -73,7 +76,6 @@ const Schedule = () => {
             <span className="scheduleParticipant helveticaBold">(BLAIN-MORAES, GROND)</span></div>
         
         </div>
-        
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">9.30-10.20</div>
           <div className="scheduleTitle">Potentialities Keynotes I:<br/>
@@ -126,7 +128,6 @@ const Schedule = () => {
           <div className="scheduleTitle">Break</div>
         </div>
         
-        
         <div className="scheduleEvent ">
           <div className="scheduleTime helveticaBold">16.15-16.30</div>
           <div className="scheduleTitle">Aesthetic Potentialities<br/>
@@ -145,6 +146,8 @@ const Schedule = () => {
         </div>
       </section>
       
+      {/*TUESDAY*/}
+      
       <section className="scheduleDay">
         <header>Tuesday, 25 April, 2017</header>
         <header><a href="http://www.cirmmt.org/" target="_blank">CENTRE OF INTERDISCIPLINARY RESEARCH IN MUSIC MEDIA AND
@@ -154,28 +157,54 @@ const Schedule = () => {
         
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">8.00-8.30</div>
-          <div className="scheduleTitle">WELCOME</div>
+          <div className="scheduleTitle">Coffee/WELCOME</div>
         </div>
         
         <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">8.30-9.00</div>
-          <div className="scheduleTitle">Tuning into youth on the spectrum</div>
-          <div className="scheduleParticipant helveticaBold">(Youth presentations)</div>
+          <div className="scheduleTime helveticaBold">8.30-8:45</div>
+          <div className="scheduleTitle">Moving-with & Biomusic <br/>
+            <span className="scheduleParticipant helveticaBold">(Youth presentations)</span></div>
         
         </div>
         <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">9.00-10.00</div>
-          <div className="scheduleTitle">Emerging Scholar Reflections</div>
-          <div className="scheduleParticipant helveticaBold">(Cascio, Motta, Teachman) & Discussants</div>
+          <div className="scheduleTime helveticaBold">8:45-9:45</div>
+          <div className="scheduleTitle">Emerging Scholar Reflections <br/>
+            <span className="scheduleParticipant helveticaBold">(Cascio, Motta, Teachman) & Discussants</span></div>
+        </div>
+        
+        
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">9.45-10.15</div>
+          <div className="scheduleTitle">Q/A and Feedback</div>
+        </div>
+        
+        
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">16.00-16.15</div>
+          <div className="scheduleTitle">Break</div>
         </div>
         
         <div className="scheduleEvent ">
-          <div className="scheduleTime helveticaBold">10.00-11.00</div>
-          <div className="scheduleTitle">Stakeholder roundtables</div>
+          <div className="scheduleTime helveticaBold">10.30-11.15</div>
+          <div className="scheduleTitle">Stakeholder roundtables <br/>
+            1. Citizen led design brief<br/>
+            2. Universal design potentialities in higher education and employment<br/>
+            3. Publications
+          </div>
         </div>
         <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">11.15-noon</div>
-          <div className="scheduleTitle">Large group discussion & future steps</div>
+          <div className="scheduleTime helveticaBold">11.15-11.45</div>
+          <div className="scheduleTitle">Large group discussion: <br/> Interest in partnerships, networks,
+            collaboration (grants and practice networks)
+          </div>
+        </div>
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">11.45 - noon</div>
+          <div className="scheduleTitle">Thank you and Future Steps</div>
+        </div>
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">Noon-14.00</div>
+          <div className="scheduleTitle">Lunch</div>
         </div>
       </section>
       <ContentFooter text='Interfacing Biomusic & Autism © 2017'/>
