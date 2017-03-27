@@ -11,13 +11,13 @@ const Patrons = () => {
       </div>
       <div id="patronsLogos">
         
-        <a href="http://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" target="_blank">
-          <div id="sshrc" className="logo"></div>
-        </a>
+        <div><a href="http://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" target="_blank">
+          <div id="sshrc" className="mainLogo"></div>
+        </a></div>
         <a href="http://mcgill.ca" target="_blank">
           <div id="mc_gill" className="logo"></div>
         </a>
-        <a href="https://www.mbam.qc.ca/en/" target="_blank">
+        <a href="https://www.mbam.qc.ca/en/education/community-programs/" target="_blank">
           <div id="museum_fine_arts" className="logo"></div>
         </a>
         <a href="http://www.cirmmt.org/" target="_blank">

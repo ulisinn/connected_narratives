@@ -223,6 +223,11 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
   border-left: none;
 }
 
+.mainLogo{
+  width: 100%;
+  max-width: 400px;
+  height: 20px;
+}
 .logo {
   width: 135px;
   height: 80px;
@@ -288,8 +293,9 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
 }
 
 #sshrc {
-  background: url("../images/sshrc_crsh_logo.jpg") 0% 50% no-repeat;
-  background-size: 85%;
+  background: url("../images/SSHRC_Fip_colour_eng.jpg") 0 0 no-repeat;
+  background-size: 100%;
+  margin-left: 0.4em;
 }
 
 @media all and (max-width: 920px) {
