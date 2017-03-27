@@ -7,7 +7,7 @@ import ContentFooter from '../components/content_footer';
 const BiomusicAesthetics = () => {
   return (<div id="biomusic_aesthetics" className="content">
     <ContentHeader text="Experiencing the aesthetics of Biomusic "/>
-    <ContentHeader text="(April 24th, 14:00 - 17:00)"/>
+    <ContentHeader text="(April 24th)"/>
     <div className="contentBody">
       We will host an engaged experience of biomusic at a workshop in the exhibits and Studios Art & Education
       Michel de la Chenelière International Atelier of the <span className="helveticaBold contentBodyIt">Musée des Beaux Arts de Montréal </span>

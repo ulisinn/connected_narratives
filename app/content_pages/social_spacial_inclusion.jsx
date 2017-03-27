@@ -10,7 +10,7 @@ const SocialSpatialInclusion = () => {
   return (
     <div id="social_spacial_inclusion" className="content">
       <ContentHeader text="Creating social-spatial inclusion for autism-inclusive cities"/>
-      <ContentHeader text="(April 23rd, 1:00 - 16:30)"/>
+      <ContentHeader text="(April 23rd)"/>
       <div className="contentBody">Our outreach initiative begins with a public town hall to be held at the <span
         className="contentBodyIt">Salon 1861</span>, an inclusive social innovation space located at in Montreal’s
         Little Burgundy <span className="contentBodyEm">(<a href="http://www.lesalon1861.com" target="_blank">www.lesalon1861.com</a>)</span>.

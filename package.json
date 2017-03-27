@@ -47,7 +47,7 @@
     "clean-webpack-plugin": "^0.1.15",
     "css-loader": "^0.26.2",
     "cssnano": "^3.10.0",
-    "eslint": "^3.16.1",
+    "eslint": "^3.18.0",
     "eslint-loader": "^1.6.3",
     "eslint-plugin-react": "^6.10.0",
     "express": "^4.14.1",

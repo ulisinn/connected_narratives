@@ -10,6 +10,10 @@ const Patrons = () => {
         <div id="patronsTitle">PATRONS & FUNDERS</div>
       </div>
       <div id="patronsLogos">
+        
+        <a href="http://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" target="_blank">
+          <div id="sshrc" className="logo"></div>
+        </a>
         <a href="http://mcgill.ca" target="_blank">
           <div id="mc_gill" className="logo"></div>
         </a>
@@ -40,14 +44,11 @@ const Patrons = () => {
         <a href="https://grandsballets.com/en/" target="_blank">
           <div id="grandsballets" className="logo"></div>
         </a>
-        <a href="http://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" target="_blank">
-          <div id="sshrc" className="logo"></div>
-        </a>
       </div>
     </div>
     
     <ContentFooter text='Interfacing Biomusic & Autism © 2017'
-                   />
+    />
   
   </div>);
 };

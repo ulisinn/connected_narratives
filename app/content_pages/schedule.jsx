@@ -21,7 +21,7 @@ const Schedule = () => {
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">13.00-13.20</div>
           <div className="scheduleTitle">Introductions <br/>
-            <span className="scheduleParticipant helveticaBold">(Dr. Melissa Park, Tamar Tembeck, Stefanie Blain-Moraes + Eric Lewis)</span>
+            {/*<span className="scheduleParticipant helveticaBold">(Dr. Melissa Park, Tamar Tembeck, Stefanie Blain-Moraes + Eric Lewis)</span>*/}
           </div>
         </div>
         <div className="scheduleEvent">
@@ -32,7 +32,7 @@ const Schedule = () => {
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">13.45-14.45</div>
           <div className="scheduleTitle">Challenges encountered on the path to inclusion <br/>
-            <span className="scheduleParticipant helveticaBold">(Moderator: Henderson; Panelists: Maccarone, Lajeunesse, Senechal, TBA)</span>
+            {/*<span className="scheduleParticipant helveticaBold">(Moderator: Henderson; Panelists: Maccarone, Lajeunesse, Senechal, TBA)</span>*/}
           </div>
         </div>
         
@@ -44,14 +44,14 @@ const Schedule = () => {
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">15.15-16.00</div>
           <div className="scheduleTitle">Experiences of technology as a barrier or facilitator <br/>
-            <span className="scheduleParticipant helveticaBold">(Moderator:Poldma; Panelists: Miyake, Katalifos, Spectrum Productions – 2 participants)</span>
+            {/*<span className="scheduleParticipant helveticaBold">(Moderator:Poldma; Panelists: Miyake, Katalifos, Spectrum Productions – 2 participants)</span>*/}
           </div>
         </div>
         
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">16.00-16.15</div>
           <div className="scheduleTitle">Closing Remarks<br/>
-            <span className="scheduleParticipant helveticaBold">(Katalifos, Henderson)</span>
+            {/*<span className="scheduleParticipant helveticaBold">(Katalifos, Henderson)</span>*/}
           </div>
         </div>
       </section>
@@ -73,16 +73,23 @@ const Schedule = () => {
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">8.45-9.15</div>
           <div className="scheduleTitle">Biomusic<br/>
-            <span className="scheduleParticipant helveticaBold">(BLAIN-MORAES, GROND)</span></div>
-        
+            {/*<span className="scheduleParticipant helveticaBold">(BLAIN-MORAES, GROND)</span>*/}
+          </div>
         </div>
+        
+        <div className="scheduleEvent">
+          <div className="scheduleTime helveticaBold">9.15-9.30</div>
+          <div className="scheduleTitle">The practical reality of physiological sensors</div>
+        </div>
+        
+        
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">9.30-10.20</div>
           <div className="scheduleTitle">Potentialities Keynotes I:<br/>
             <span className="scheduleTitle">Musical Affordances and the Technologies of Presence</span><br/>
-            <span className="scheduleParticipant helveticaBold">(Kirmayer)</span><br/>
+            {/*<span className="scheduleParticipant helveticaBold">(Kirmayer)</span><br/>*/}
             <span className="scheduleTitle">Experiencing Engagement: Embodied, Agentive, Interpersonal, Familial & Community Dimensions</span><br/>
-            <span className="scheduleParticipant helveticaBold">(LAWLOR)</span>
+            {/*<span className="scheduleParticipant helveticaBold">(LAWLOR)</span>*/}
           </div>
         </div>
         
@@ -101,9 +108,9 @@ const Schedule = () => {
           <div className="scheduleTime helveticaBold">10.55-11.45</div>
           <div className="scheduleTitle">Potentialities Keynotes II:<br/>
             <span className="scheduleTitle">TBA</span><br/>
-            <span className="scheduleParticipant helveticaBold">(STERNE)</span><br/>
+            {/*<span className="scheduleParticipant helveticaBold">(STERNE)</span><br/>*/}
             <span className="scheduleTitle">“I am a Fossil”: Autism, Stigma and the Ethics of Care</span><br/>
-            <span className="scheduleParticipant helveticaBold">(MATTINGLY)</span>
+            {/*<span className="scheduleParticipant helveticaBold">(MATTINGLY)</span>*/}
           </div>
         </div>
         
@@ -120,7 +127,8 @@ const Schedule = () => {
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">14.00-16.00</div>
           <div className="scheduleTitle">Tuning-in & Moving-with others <br/>
-            <span className="scheduleParticipant helveticaBold">(30 participants)</span></div>
+            {/*<span className="scheduleParticipant helveticaBold">(30 participants)</span>*/}
+          </div>
         </div>
         
         <div className="scheduleEvent">
@@ -131,7 +139,7 @@ const Schedule = () => {
         <div className="scheduleEvent ">
           <div className="scheduleTime helveticaBold">16.15-16.30</div>
           <div className="scheduleTitle">Aesthetic Potentialities<br/>
-            <span className="scheduleParticipant helveticaBold">(Lee, Tembeck)</span>
+            {/*<span className="scheduleParticipant helveticaBold">(Lee, Tembeck)</span>*/}
           </div>
         </div>
         
@@ -163,13 +171,15 @@ const Schedule = () => {
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">8.30-8:45</div>
           <div className="scheduleTitle">Moving-with & Biomusic <br/>
-            <span className="scheduleParticipant helveticaBold">(Youth presentations)</span></div>
+            {/*<span className="scheduleParticipant helveticaBold">(Youth presentations)</span>*/}
+          </div>
         
         </div>
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">8:45-9:45</div>
           <div className="scheduleTitle">Emerging Scholar Reflections <br/>
-            <span className="scheduleParticipant helveticaBold">(Cascio, Motta, Teachman) & Discussants</span></div>
+            {/*<span className="scheduleParticipant helveticaBold">(Cascio, Motta, Teachman) & Discussants</span>*/}
+          </div>
         </div>
         
         

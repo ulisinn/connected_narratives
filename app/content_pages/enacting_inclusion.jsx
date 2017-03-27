@@ -7,7 +7,7 @@ import ContentFooter from '../components/content_footer';
 const EnactingInclusion = () => {
   return (<div id="enacting_inclusion" className="content">
       <ContentHeader text="Enacting inclusion"/>
-      <ContentHeader text="(April 25th, 8:30 – noon)"/>
+      <ContentHeader text="(April 25th)"/>
       
       <div className="contentBody">Our initiative for social inclusion will close with a panel discussion at the <span
         className="contentBodyEm contentBodyIt">Centre for Interdisciplinary Research

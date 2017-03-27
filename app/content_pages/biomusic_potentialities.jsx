@@ -8,7 +8,7 @@ const BiomusicPotentialities = () => {
   return (
     <div id="biomusic_potentialities" className="content">
       <ContentHeader text="ReFLecting on the Potentialities of Biomusic"/>
-      <ContentHeader text="(April 24th, 8:30 am – noon)"/>
+      <ContentHeader text="(April 24th)"/>
       
       <div className="contentBody">We will begin our theoretical exploration of biomusic technology at the <span
         className="helveticaBold contentBodyIt">Montreal Science Center</span>, which hosts a permanent exhibition
