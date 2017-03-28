@@ -12,7 +12,7 @@ const Patrons = () => {
       <div id="patronsLogos">
         
         <div><a href="http://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" target="_blank">
-          <div id="sshrc" className="mainLogo"></div>
+          <div id="sshrc" className="sshrc_logo"></div>
         </a></div>
         <a href="http://mcgill.ca" target="_blank">
           <div id="mc_gill" className="logo"></div>
