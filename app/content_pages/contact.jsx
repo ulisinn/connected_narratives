@@ -13,7 +13,7 @@ const Contact = () => {
         
         <div id="contactAddresses">
           <div className="contactAddress">
-            <p >Dr. Melissa Park</p>
+            <p >Melissa Park</p>
             <p className="contactEmail"><span className="contentBodyEm">melissa.park</span>[at]<span
               className="contentBodyEm">mc
               gill</span>[.]<span className="contentBodyEm">ca</span></p>

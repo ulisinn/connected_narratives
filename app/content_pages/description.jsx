@@ -9,15 +9,17 @@ const Description = () => {
       <ContentHeader text="Interfacing Biomusic & Autism"/>
       <div className="contentBody">
         Biomusic is an innovative technology that translates the physiological representations of emotional and mental
-        states into musical output. The interface between autism and biomusic blurs the distinctions between
+        states into musical output. The interface between biomusic and autism blurs the distinctions between
         technologies and humans, art and emotions, public and private experiences. It unsettles common sense assumptions
-        of technology as “cold” a calculating rationality; instead, it highlights the potential of translating
-        physiological signals into music to humanize how we, as a society, attune to and recognize the presence
-        of persons who are marginalized due to diverse communicative capacities. Thus, it also constitutes a privileged
-        space to explore the everyday ethics of representing the physiology of what moves us; that is, the physiological
-        signals as well as aesthetical values inspiring action—best encapsulated by literary critic Kenneth Burke’s
-        (1941/1973: 234) observation that “aesthetical values are intermingled with ethical values and the ethical is
-        the basis of the practical.”
+        of technology as cold, calculating, or rational. Instead, biomusic highlights both the potential and risk of
+        translating the unique physiological signals or particular persons into a living cultural form. As such,
+        biomusic could be a mediator to attune to and recognize the presence of persons who are marginalized due to
+        diverse communicative capacities while simultaneously raising questions about the values that would guide the
+        implementation of this innovative technology.
+        <br/>
+        Thus, it also constitutes a space to explore how our sense of the beautiful and the good is woven into our
+        everyday (inter)actions, keeping in mind the literary critic Kenneth Burke’s (1941/1973: 234) observation that
+        “aesthetical values are intermingled with ethical values and the ethical is the basis of the practical.”
       </div>
       
       <div className="contentBody">"Interfacing Biomusic and Autism: The everyday ethics of representing the physiology

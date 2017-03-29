@@ -29,7 +29,7 @@ export const initialState = {
       id: uuid.v4(),
       url: 'social_spacial_inclusion',
       category: 'schedule',
-      title: 'EXPERIENCING (TECHNOLOGICAL) BARRIERS TO AND FACILITATORS OF SOCIAL-SPATIAL INCLUSION',
+      title: 'EXPERIENCING FACILITATORS AND BARRIERS TO INCLUSION',
       short: 'SOCIAL-SPATIAL INCLUSION',
       date: 'APRIL 23RD',
       dropdown: true,

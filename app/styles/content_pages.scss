@@ -131,7 +131,7 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
 
 .panelistName {
   text-transform: uppercase;
-  min-width: 230px;
+  min-width: 240px;
   line-height: 1.2em;
 
   p {
@@ -237,6 +237,13 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
   margin: 2px;
   //margin-right: 7px;
   margin-left: 11px;
+}
+
+#wiaih {
+  background: url("../images/WIAIH_LOGO.jpg") 0 50% no-repeat;
+  background-size: 100%;
+  margin-left: -0.1em;
+  margin-top: 1em;
 }
 
 #mc_gill {

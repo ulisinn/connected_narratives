@@ -31,8 +31,8 @@ const Schedule = () => {
         
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">13.45-14.45</div>
-          <div className="scheduleTitle">Challenges encountered on the path to inclusion <br/>
-            {/*<span className="scheduleParticipant helveticaBold">(Moderator: Henderson; Panelists: Maccarone, Lajeunesse, Senechal, TBA)</span>*/}
+          <div className="scheduleTitle">
+            Experiences of technology as a mediator of inclusion
           </div>
         </div>
         
@@ -85,11 +85,7 @@ const Schedule = () => {
         
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">9.30-10.20</div>
-          <div className="scheduleTitle">Potentialities Keynotes I:<br/>
-            <span className="scheduleTitle">Musical Affordances and the Technologies of Presence</span><br/>
-            {/*<span className="scheduleParticipant helveticaBold">(Kirmayer)</span><br/>*/}
-            <span className="scheduleTitle">Experiencing Engagement: Embodied, Agentive, Interpersonal, Familial & Community Dimensions</span><br/>
-            {/*<span className="scheduleParticipant helveticaBold">(LAWLOR)</span>*/}
+          <div className="scheduleTitle">Potentialities Keynotes I
           </div>
         </div>
         
@@ -106,11 +102,7 @@ const Schedule = () => {
         
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">10.55-11.45</div>
-          <div className="scheduleTitle">Potentialities Keynotes II:<br/>
-            <span className="scheduleTitle">TBA</span><br/>
-            {/*<span className="scheduleParticipant helveticaBold">(STERNE)</span><br/>*/}
-            <span className="scheduleTitle">“I am a Fossil”: Autism, Stigma and the Ethics of Care</span><br/>
-            {/*<span className="scheduleParticipant helveticaBold">(MATTINGLY)</span>*/}
+          <div className="scheduleTitle">Potentialities Keynotes II
           </div>
         </div>
         
@@ -211,10 +203,6 @@ const Schedule = () => {
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">11.45 - noon</div>
           <div className="scheduleTitle">Thank you and Future Steps</div>
-        </div>
-        <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">Noon-14.00</div>
-          <div className="scheduleTitle">Lunch</div>
         </div>
       </section>
       <ContentFooter text='Interfacing Biomusic & Autism © 2017'/>
