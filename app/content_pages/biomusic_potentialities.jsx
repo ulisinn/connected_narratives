@@ -10,22 +10,22 @@ const BiomusicPotentialities = () => {
       <ContentHeader text="ReFLecting on the Potentialities of Biomusic"/>
       <ContentHeader text="(April 24th)"/>
       
-      <div className="contentBody"><p>We will begin our theoretical exploration of biomusic technology at the <span
+      <div className="contentBody"><p>We will begin our exploration of biomusic technology at the <span
         className="helveticaBold contentBodyIt">Montreal Science Centre</span>, by visiting a permanent exhibition
-        featuring biomusic,
+        featuring biomusic,{ }
         <a href="http://publications.mcgill.ca/medenews/2017/02/28/feelingsare-
-        more-than-skin-deep-mes-emotions-sont-a-fleur-de-peau/" target="_blank" className="helveticaBold"> “Mes émotions
+        more-than-skin-deep-mes-emotions-sont-a-fleur-de-peau/" target="_blank" className="helveticaBold">“Mes émotions
           sont à fleur de peau”</a>.</p>
         <p>{'\u00A0'}</p>
         
-        <p>Co-applicant Stefanie Blain-Moraes and Florian Grond will then present a history and technical background
+        <p>Stefanie Blain-Moraes and Florian Grond will then present the history and technical background
           of biomusic to situate the group to the realities, possibilities and limitations of this technology. Following
           this, Daniel Bender, an industry representative from Empatica will introduce issues related to commercializing
           technology for physiological monitoring.</p>
         <p>{'\u00A0'}</p>
         <p>Finally, a series of keynote presentations will be given by leading scholars in their respective fields on
           the
-          potentialities as well as everyday ethical implications at the interface of autism and biotechnology and
+          potentialities as well as everyday ethical implications at the interface of and biotechnology and
           autism.</p>
       </div>
       
@@ -54,7 +54,7 @@ const BiomusicPotentialities = () => {
             <p>(Transcultural Psychiatry)</p>
             <p> McGill University, CA</p>
           </div>
-          <div className="panelistOrg helvetica contentBodyIt">Interpersonal, Familial & Community Dimensions
+          <div className="panelistOrg helvetica contentBodyIt">Musical Affordances and the Technologies of Presence
           </div>
         </div>
         <div className="localPanelists">
