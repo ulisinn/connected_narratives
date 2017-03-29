@@ -26,14 +26,15 @@ const ResearchDescription = () => {
         others’ sensitivities, counteracting (often misread) culturally informed ways of interpreting another’s
         expressions and actions (Kirmayer and Ramstead, Forthcoming), and thus, potentially supporting more inclusive
         ways of interacting with others. However, providing uninvited insight into an individual’s electrophysiological
-        states has the equal potentiality of being misused and abused, which raises a number of overlapping <span
-        className="contentBodyEm">everyday ethical, aesthetic and practical concerns</span> that must be addressed
+        states has the equal potentiality of being misused and abused, which raises a number of overlapping everyday <span
+        className="contentBodyEm">ethical, aesthetic</span> and <span
+        className="contentBodyEm">practical concerns</span> that must be addressed
         before it can be meaningfully integrated into everyday life.
       </div>
       
       <div className="contentBody">
         <span className="contentBodyIt">Everyday ethics</span>, an emerging field of philosophical inquiry in
-        fields ranging from eth-nographic, first- person anthropology (Mattingly, 2012; Mattingly, 2014; Lambek, 2015;
+        fields ranging from ethnographic, first- person anthropology (Mattingly, 2012; Mattingly, 2014; Lambek, 2015;
         Keane, 2015) to neuroscience (Zizzo et al., 2016) and philosophy (Massumi, 2002) shifts attention to how
         contemplations of the best good, that guide our actions, emerges in our everyday interactions with other.
         Since biomusic “reveals” otherwise tacit embodied expressions, the everyday ethical concerns pertain, amongst
