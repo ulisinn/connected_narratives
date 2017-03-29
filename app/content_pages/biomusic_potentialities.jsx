@@ -56,7 +56,7 @@ const BiomusicPotentialities = () => {
             <p>(Transcultural Psychiatry)</p>
             <p> McGill University, CA</p>
           </div>
-          <div className="panelistOrg helvetica contentBodyIt">Interpersonal, Familial & Community Dimensions
+          <div className="panelistOrg helvetica contentBodyIt">Musical Affordances and the Technologies of Presence
           </div>
         </div>
         <div className="localPanelists">
