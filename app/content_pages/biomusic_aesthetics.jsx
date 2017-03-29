@@ -9,10 +9,10 @@ const BiomusicAesthetics = () => {
     <ContentHeader text="Experiencing the aesthetics of Biomusic "/>
     <ContentHeader text="(April 24th)"/>
     <div className="contentBody">
-      <p>The <span className="contentBodyEm">Sharing the Museum</span> program will host an engaged experience of
+      <p>The <span className="contentBodyEm"><a href="https://www.mbam.qc.ca/en/education/community-programs/">Sharing the Museum</a></span> program will host an engaged experience of
         biomusic in the exhibits and <span className="contentBodyEm"><a
           href="http://www.mbam.qc.ca/education/studio-art-education-michel-de-la-cheneliere" target="_blank">Studios Art & Education Michel de la Chenelière International Atelier</a></span>
-        {' '}of the{' '}<span className="helveticaBold contentBodyIt">Musée des Beaux Arts de Montréal{''}</span>,
+        {' '}of the{' '}Montreal Museum of Fine Arts{''},
         our cultural collaborator on the project.</p>
       <p>{'\u00A0'}</p>
       <p>This event will grounds the morning's technical and theoretical knowledge exchange on biomusic in a common,

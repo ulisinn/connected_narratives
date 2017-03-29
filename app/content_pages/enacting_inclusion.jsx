@@ -9,28 +9,30 @@ const EnactingInclusion = () => {
       <ContentHeader text="Towards Enacting inclusion"/>
       <ContentHeader text="(April 25th)"/>
       
-      <div className="contentBody"><p>Our initiative for social inclusion will close with a panel discussion at the
+      <div className="contentBody"><p>Our initiative for social inclusion will close with a panel discussion at
+        the {' '}
         <span
-          className="contentBodyEm contentBodyIt">Centre for Interdisciplinary Research
-        in Music and Media Technology (<a href="http://www.cirmmt.org" target="_blank">www.cirmmt.org</a>)</span>, a
-        multi-disciplinary and inter- institutional research group housed at the Schulich School of Music, McGill
-        University. Interfacing biomusic and autism aligns with the Centre’s mission to promote an interdisciplinary
-        culture and form partnerships with the public and para-public sectors in Quebec, Canada and internationally.</p>
+          className="contentBodyEm contentBodyIt"><a href="http://www.cirmmt.org" target="_blank">Centre for Interdisciplinary Research
+        in Music and Media Technology</a></span>, a multi-disciplinary and inter-institutional research group housed at
+        the Schulich School of Music, McGill University. Interfacing biomusic and autism aligns with the Centre’s
+        mission to promote an interdisciplinary culture and form partnerships with the public and para-public sectors in
+        Quebec, Canada and internationally.
+      
+      </p>
         <p>{'\u00A0'}</p>
         
-        <p> This setting creates space to synthesize the implications and outcomes of the past two days and propose
-          future directions, with a particular emphasis on mentoring emerging scholars. First, postdoctoral
-          fellows who are connected to rehabilitation research centers will reflect on how this citizen- led initiative
-          has impacted their thinking, using their current foci in areas ranging from technology and social inclusion to
-          autism. The keynote speakers for the potentiality panel will provide commentary, followed by an open question
-          and answer period.</p>
+        <p>This setting creates space to synthesize the implications and outcomes of
+          the past two days and propose future directions, with a particular emphasis on mentoring emerging scholars.
+          First, postdoctoral fellows who are connected to rehabilitation research centers will reflect on how this
+          citizen-led initiative has impacted their thinking, using their current foci in areas ranging from technology
+          and social inclusion to autism. The keynote speakers for on the potentiality panels will provide commentary,
+          followed by an open question and answer period.</p>
         <p>{'\u00A0'}</p>
         
-        <p>We then will split into cross sector break-out groups, organized according to the
-          themes that emerged over the past two days. Break-out groups will prioritize the everyday ethical, aesthetic
-          and practical aspects related to their theme (e.g. citizen-led design brief for biomusic and/or environmental
-          user design in higher education, workplaces), future steps, and re-convene to share discussions and confirm
-          future partnerships.</p>
+        <p>We will then split into cross sector break-out groups, organized according to the themes that emerged over
+          the past two days. Break-out groups will prioritize the everyday ethical, aesthetic and practical aspects
+          related to their theme (e.g. citizen-led design brief for biomusic and/or environmental user design in higher
+          education, workplaces), future steps, and re-convene to share discussions and confirm future partnerships.</p>
       </div>
       
       <ContentHeader text="Emerging scholars reFLections:"/>
