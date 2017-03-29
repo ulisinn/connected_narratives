@@ -14,7 +14,7 @@ const EnactingInclusion = () => {
         <span
           className="contentBodyEm contentBodyIt"><a href="http://www.cirmmt.org" target="_blank">Centre for Interdisciplinary Research
         in Music and Media Technology</a></span>, a multi-disciplinary and inter-institutional research group housed at
-        the Schulich School of Music, McGill University. Interfacing biomusic and autism aligns with the Centre’s
+        the Schulich School of Music, McGill University. <span className="contentBodyIt">Interfacing Biomusic and Autism</span> aligns with the Centre’s
         mission to promote an interdisciplinary culture and form partnerships with the public and para-public sectors in
         Quebec, Canada and internationally.
       
