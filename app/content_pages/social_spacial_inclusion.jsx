@@ -59,7 +59,7 @@ const SocialSpatialInclusion = () => {
             <span className="contentBodyEm">Nick Katalifos</span>, Principal, Roslyn Elementary
             School<br/>
             <span className="contentBodyEm">Natalie  Miyake</span>, Employer-Director, Parent & Board Member-Community,{' '}
-            <a href="http://wiaih.qc.ca/" target="_blank">WIAIH</a> & <a href="http://www.summit-school.com/" target="_blank">Summit School</a>
+            <span className="contentBodyEm"><a href="http://wiaih.qc.ca/" target="_blank">WIAIH</a></span> & <span className="contentBodyEm"><a href="http://www.summit-school.com/" target="_blank">Summit School</a></span>
             <br/>
             <span className="contentBodyEm">Aryanna Comodini</span>, Parent
             <br/>
@@ -73,11 +73,6 @@ const SocialSpatialInclusion = () => {
           href="http://productionsspectrum.com/en/" target="_blank">Productions Spectrum</a></span> to create public
           service announcements <Link to={'Videos'} className="helveticaBold">{'(Coming soon)'}</Link>.
         </p>
-        <div>
-          <a href="http://wiaih.qc.ca/" target="_blank">
-            <div id="wiaih" className="logo"></div>
-          </a>
-        </div>
       </div>
       
       

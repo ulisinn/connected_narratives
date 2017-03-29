@@ -6,7 +6,7 @@ import ContentFooter from '../components/content_footer';
 
 const ResearchDescription = () => {
   return (<div id="research_description" className="content">
-      <ContentHeader text="PROJECT RATIONALE"/>
+      <ContentHeader text="RATIONALE"/>
       
       <div className="contentBody">
         Autists directly link their experiences of socio-spatial exclusion to neurophysiological sensitivities and

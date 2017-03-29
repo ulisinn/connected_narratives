@@ -17,6 +17,17 @@ export const initialState = {
       date: '',
       dropdown: false,
     },
+    
+    {
+      id: uuid.v4(),
+    
+      url: 'research_description',
+      category: 'project',
+      title: 'RATIONALE',
+      short: 'RATIONALE',
+      date: '',
+      dropdown: true,
+    },
     {
       id: uuid.v4(),
       url: 'schedule',
@@ -71,16 +82,6 @@ export const initialState = {
       short: '',
       date: '',
       dropdown: false,
-    },
-    {
-      id: uuid.v4(),
-      
-      url: 'research_description',
-      category: 'goals',
-      title: 'DESCRIPTION OF THE RESEARCH TO BE DISSEMINATED, EXCHANGED, MOBILIZED',
-      short: 'RESEARCH DESCRIPTION',
-      date: '',
-      dropdown: true,
     },
     {
       id: uuid.v4(),
