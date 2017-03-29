@@ -12,11 +12,13 @@ const SocialSpatialInclusion = () => {
       <ContentHeader text="Experiencing facilitators and barriers to inclusion"/>
       <ContentHeader text="(April 23rd)"/>
       <div className="contentBody">Our outreach initiative begins with a public town hall to be held at the <span
-        className="contentBodyIt">Salon 1861</span>, an inclusive social innovation space located in Montreal’s
-        Little Burgundy <span className="contentBodyEm">(<a href="http://www.lesalon1861.com" target="_blank">www.lesalon1861.com</a>)</span>.
-        Selected in collaboration with <span className="contentBodyIt">Giant Steps</span>, panelists will
-        include persons on the spectrum as well as parents of children and youth diagnosed with autism who hold key
-        positions as employers, administrators, and universal designers in academic, civic and cultural institutions.
+        className="contentBodyIt contentBodyEm"><a href="http://www.lesalon1861.com"
+                                                   target="_blank">Salon 1861</a></span>, an inclusive social innovation
+        space located in Montreal’s Little Burgundy. Selected in collaboration with <span
+          className="contentBodyEm contentBodyIt"><a href="https://www.giantstepsmontreal.com/" target="_blank">Giant Steps</a></span>,
+        panelists will include persons on the spectrum as well as parents of children and youth diagnosed with autism
+        who hold key positions as employers, administrators, and universal designers in academic, civic and cultural
+        institutions.
         <br/><br/>
         After an introduction and general overview by Drs. Park, Tembeck and Blain-Moraes, there will be two community
         panels:
@@ -58,8 +60,10 @@ const SocialSpatialInclusion = () => {
           <p>Panelists:<br/>
             <span className="contentBodyEm">Nick Katalifos</span>, Principal, Roslyn Elementary
             School<br/>
-            <span className="contentBodyEm">Natalie  Miyake</span>, Employer-Director, Parent & Board Member-Community,{' '}
-            <span className="contentBodyEm"><a href="http://wiaih.qc.ca/" target="_blank">WIAIH</a></span> & <span className="contentBodyEm"><a href="http://www.summit-school.com/" target="_blank">Summit School</a></span>
+            <span className="contentBodyEm">Natalie  Miyake</span>, Employer-Director, Parent & Board
+            Member-Community,{' '}
+            <span className="contentBodyEm"><a href="http://wiaih.qc.ca/" target="_blank">WIAIH</a></span> & <span
+              className="contentBodyEm"><a href="http://www.summit-school.com/" target="_blank">Summit School</a></span>
             <br/>
             <span className="contentBodyEm">Aryanna Comodini</span>, Parent
             <br/>

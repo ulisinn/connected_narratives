@@ -223,11 +223,12 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
   border-left: none;
 }
 
-.sshrc_logo{
+.sshrc_logo {
   width: 100%;
   max-width: 400px;
   height: 20px;
 }
+
 .logo {
   width: 135px;
   height: 80px;
@@ -272,6 +273,11 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
   background-size: 60%;
 }
 
+#schulich {
+  background: url("../images/moriarty_logo.png") 10% 50% no-repeat;
+  background-size: 100%;
+}
+
 #le_salon {
   width: 140px;
   height: 80px;
@@ -285,8 +291,8 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
 }
 
 #productionsspectrum {
-  background: url("../images/spectrum.png") 50% 50% no-repeat;
-  background-size: 60%;
+  background: url("../images/spectrum_new.png") 50% 50% no-repeat;
+  background-size: 100%;
 }
 
 #montrealsciencecentre {
@@ -453,8 +459,8 @@ $bodyGrey: rgba(0, 0, 0, 0.6);
     margin-bottom: 1em;
   }
 
-  #videoContent{
-    width:88%;
-    margin:0 auto;
+  #videoContent {
+    width: 88%;
+    margin: 0 auto;
   }
 }

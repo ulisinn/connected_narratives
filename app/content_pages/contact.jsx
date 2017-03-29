@@ -14,9 +14,12 @@ const Contact = () => {
         <div id="contactAddresses">
           <div className="contactAddress">
             <p >Melissa Park</p>
-            <p className="contactEmail"><span className="contentBodyEm">melissa.park</span>[at]<span
-              className="contentBodyEm">mc
-              gill</span>[.]<span className="contentBodyEm">ca</span></p>
+            <p className="contactEmail">
+              <span className="contentBodyEm">melissa.park</span>[at]<span
+              className="contentBodyEm">mcgill</span>[.]<span
+              className="contentBodyEm">ca</span>
+              <p><a href="https://www.mcgill.ca/spot/our-faculty/park" target="_blank">mcgill.ca/spot/our-faculty/park</a></p>
+            </p>
           </div>
           <div className="contactAddress">
             <p>Stefanie Blain-Moraes</p>
@@ -27,8 +30,9 @@ const Contact = () => {
                 <a href="http://www.moraeslab.com/biapt/" target="_blank">www.moraeslab.com/biapt/</a>
               </p>
               <p>
-              <a href="http://www.moraeslab.com/biapt/research/mes-emotions-sont-fleur-de-peau/" target="_blank">Mes émotions sont à fleur de peau</a>
-            </p>
+                <a href="http://www.moraeslab.com/biapt/research/mes-emotions-sont-fleur-de-peau/" target="_blank">Mes
+                  émotions sont à fleur de peau</a>
+              </p>
             </p>
           </div>
           <div className="contactAddress">

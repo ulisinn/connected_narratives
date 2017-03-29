@@ -23,17 +23,17 @@ const Patrons = () => {
         <a href="http://www.cirmmt.org/" target="_blank">
           <div id="cirmmt" className="logo"></div>
         </a>
-        <a href="http://lesalon1861.com/" target="_blank">
+{/*        <a href="http://lesalon1861.com/" target="_blank">
           <div id="le_salon" className="logo"></div>
-        </a>
+        </a>*/}
         <a href="https://www.empatica.com/" target="_blank">
           <div id="empatica" className="logo"></div>
         </a>
         <a href=" http://iplai.ca/" target="_blank">
           <div id="iplai" className="logo"></div>
         </a>
-        <a href="https://www.giantstepsmontreal.com/" target="_blank">
-          <div id="giant_steps" className="logo"></div>
+        <a href="https://www.mcgill.ca/music/about-us" target="_blank">
+          <div id="schulich" className="logo"></div>
         </a>
         <a href="http://productionsspectrum.com/en/" target="_blank">
           <div id="productionsspectrum" className="logo"></div>

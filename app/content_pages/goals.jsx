@@ -11,8 +11,8 @@ const Goals = () => {
       
       <div className="contentBody">
         The overarching goal of this project is to generate socially accountable knowledge in the humanities, social
-        sciences and natural sciences by providing an actual, real-world focus—the potentialities of biomusic in the
-        creation of autism-friendly cities. To meet this goal, <span className="contentBodyIt">Interfacing biomusic and autism </span>
+        sciences and natural sciences by providing an actual, real-world focus. To meet this goal, <span
+        className="contentBodyIt">Interfacing Biomusic and Autism </span>
         has <span className="contentBodyEm">three main objectives:</span>
       </div>
       
@@ -34,7 +34,7 @@ const Goals = () => {
       </div>
       
       <div className="contentBody">
-        Third, <span className="contentBodyIt">Interfacing biomusic and autism</span> offers a number of intersectoral
+        Third, <span className="contentBodyIt">Interfacing Biomusic and Autism</span> offers a number of intersectoral
         and multidisciplinary opportunities to bring students and emerging scholars (from universal design, art history,
         engineering, rehabilitation, communication/media studies, and transcultural psychiatry) into conversation with
         the wider public to respond together to the practical realities of enacting social-spatial inclusion within
