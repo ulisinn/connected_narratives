@@ -11,10 +11,12 @@ const BiomusicPotentialities = () => {
       <ContentHeader text="(April 24th)"/>
       
       <div className="contentBody"><p>We will begin our exploration of biomusic technology at the <span
-        className="helveticaBold contentBodyIt">Montreal Science Centre</span>, by visiting a permanent exhibition
-        featuring biomusic,{ }
-        <a href="http://publications.mcgill.ca/medenews/2017/02/28/feelingsare-
-        more-than-skin-deep-mes-emotions-sont-a-fleur-de-peau/" target="_blank" className="helveticaBold">“Mes émotions
+        className="helveticaBold contentBodyIt"><a
+        href="http://www.montrealsciencecentre.com/permanent-exhibition/human" target="_blank"
+        className="helveticaBold">Montreal Science Centre</a></span>, by visiting a permanent exhibition
+        featuring biomusic,{' '}
+        <a href="http://www.moraeslab.com/biapt/research/mes-emotions-sont-fleur-de-peau/" target="_blank"
+           className="helveticaBold">“Mes émotions
           sont à fleur de peau”</a>.</p>
         <p>{'\u00A0'}</p>
         
@@ -54,7 +56,7 @@ const BiomusicPotentialities = () => {
             <p>(Transcultural Psychiatry)</p>
             <p> McGill University, CA</p>
           </div>
-          <div className="panelistOrg helvetica contentBodyIt">Musical Affordances and the Technologies of Presence
+          <div className="panelistOrg helvetica contentBodyIt">Interpersonal, Familial & Community Dimensions
           </div>
         </div>
         <div className="localPanelists">
