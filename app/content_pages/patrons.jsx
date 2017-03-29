@@ -14,7 +14,7 @@ const Patrons = () => {
         <div><a href="http://www.sshrc-crsh.gc.ca/home-accueil-eng.aspx" target="_blank">
           <div id="sshrc" className="sshrc_logo"></div>
         </a></div>
-        <a href="http://mcgill.ca" target="_blank">
+        <a href="http://www.mcgill.ca/spot/research-1" target="_blank">
           <div id="mc_gill" className="logo"></div>
         </a>
         <a href="https://www.mbam.qc.ca/en/education/community-programs/" target="_blank">
@@ -41,7 +41,7 @@ const Patrons = () => {
         <a href="http://www.montrealsciencecentre.com/" target="_blank">
           <div id="montrealsciencecentre" className="logo"></div>
         </a>
-        <a href="https://grandsballets.com/en/" target="_blank">
+        <a href="https://www.dancetherapycentre.com" target="_blank">
           <div id="grandsballets" className="logo"></div>
         </a>
       </div>
