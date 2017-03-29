@@ -56,40 +56,40 @@ const ResearchDescription = () => {
       
       <hr/>
       
-      <span className="contentBody footnote">Baxter AJ, Brugha TS, Erskine HE, et al. (2014)<span
+      <span className="contentBody footnote">Baxter AJ, Brugha TS, Erskine HE, et al. (2014) <span
         className="contentBodyIt">The epidemiology and global
         burden of autism spectrum disorders.</span> Psychological Medicine.</span>
       <br/>
-      <span className="contentBody footnote">Blain-Moraes S, Chesser S, Kingsnorth S, et al. (2013)<span
+      <span className="contentBody footnote">Blain-Moraes S, Chesser S, Kingsnorth S, et al. (2013) <span
         className="contentBodyIt">Biomusic: A novel technology for revealing the personhood of people with profound multiple disabilities.</span> Augmentative and Alternative Communication Early  Online: 1-15.</span>
       
       <br/>
-      <span className="contentBody footnote">Burke K. (1941/1973)<span
+      <span className="contentBody footnote">Burke K. (1941/1973) <span
         className="contentBodyIt">The philosophy of literary form: studies in symbolic action</span>, Los Angeles: University of California Press.</span>
       <br/>
-      <span className="contentBody footnote">Davidson J. (2010)<span
+      <span className="contentBody footnote">Davidson J. (2010) <span
         className="contentBodyIt">'It cuts both ways': A relational approach to access and accomodation for autism.</span> Social Science & Medicine 70: 305-312.</span>
       <br/>
       <span className="contentBody footnote">Gilman SL. (1985) <span
         className="contentBodyIt">Difference and pathology: stereotypes of sexuality, race, and madness</span>, Ithaca, NY: Cornell University Press.</span>
       <br/>
       <span
-        className="contentBody footnote">Gilman SL. (2014)<span
+        className="contentBody footnote">Gilman SL. (2014) <span
         className="contentBodyIt">Madness as Disability.</span> History of Psychiatry 25: 441-449.</span>
       <br/>
       <span className="contentBody footnote">Keane W. (2015) <span
         className="contentBodyIt">Ethical Life: Its Natural and Social Histories</span>, Princeton, NJ: Princeton University Press.</span>
       <br/>
       <span className="contentBody footnote">Kinnear SH, Link BG, Ballan MS, et al. (2016) <span
-        className="contentBodyIt">Understanding the experience of stigma for parents of children with autism spectrum disorder and the role stigma plays in families' lives.</span>Journal of Autism and Developmental Disorders 46: 942-953.</span>
+        className="contentBodyIt">Understanding the experience of stigma for parents of children with autism spectrum disorder and the role stigma plays in families' lives.</span> Journal of Autism and Developmental Disorders 46: 942-953.</span>
       <br/>
       <span className="contentBody footnote">Kirmayer LJ and Ramstead MJD. (Forthcoming) <span
-        className="contentBodyIt">Embodiment and enactment in cultural psychiatry.</span> In: Durt C and Fuchs T (eds) Embodiment, Enactment and Culture: Investigating the Constitution of the Shared World. Cambridge, MA: MIT Press.</span>
+        className="contentBodyIt">Embodiment and enactment in cultural psychiatry.</span> In Durt C and Fuchs T (eds), "Embodiment, Enactment and Culture: Investigating the Constitution of the Shared World." Cambridge, MA: MIT Press.</span>
       <br/>
       <span className="contentBody footnote">Lambek M. (2015) <span
         className="contentBodyIt">The Ethical Condition: Essays on Action, Person, and Values</span>, Chicago, IL: University of Chicago Press.</span>
       <br/>
-      <span className="contentBody footnote">Latour B. (1999)<span
+      <span className="contentBody footnote">Latour B. (1999) <span
         className="contentBodyIt"> Pandora’s Hope: Essays on the Reality of Science Studies</span>, Cambridge, MA: Harvard University Press.</span>
       <br/>
       <span className="contentBody footnote">Massumi B. (2002) <span
