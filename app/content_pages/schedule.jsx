@@ -26,7 +26,7 @@ const Schedule = () => {
         </div>
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">13.20-13:45</div>
-          <div className="scheduleTitle">Youth reflections on biomusic</div>
+          <div className="scheduleTitle">Reflections on biomusic BY YOUTH ON THE SPECTRUM</div>
         </div>
         
         <div className="scheduleEvent">
@@ -67,7 +67,7 @@ const Schedule = () => {
         
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">8.00-8.45</div>
-          <div className="scheduleTitle">Welcome & Tour of Biomusic Installation</div>
+          <div className="scheduleTitle">Welcome To The Science Centre & Tour of Biomusic Installation</div>
         </div>
         
         <div className="scheduleEvent">
@@ -113,7 +113,7 @@ const Schedule = () => {
         
         <div className="scheduleEvent ">
           <div className="scheduleTime helveticaBold">noon-14.00</div>
-          <div className="scheduleTitle">Migration to MBAM & Lunch</div>
+          <div className="scheduleTitle">Lunch & Migration to The Montreal Museum of Fine Arts</div>
         </div>
         
         <div className="scheduleEvent">
@@ -188,17 +188,11 @@ const Schedule = () => {
         
         <div className="scheduleEvent ">
           <div className="scheduleTime helveticaBold">10.30-11.15</div>
-          <div className="scheduleTitle">Stakeholder roundtables <br/>
-            1. Citizen led design brief<br/>
-            2. Universal design potentialities in higher education and employment<br/>
-            3. Publications
-          </div>
+          <div className="scheduleTitle">Stakeholder roundtables</div>
         </div>
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">11.15-11.45</div>
-          <div className="scheduleTitle">Large group discussion: <br/> Interest in partnerships, networks,
-            collaboration (grants and practice networks)
-          </div>
+          <div className="scheduleTitle">Large group discussion</div>
         </div>
         <div className="scheduleEvent">
           <div className="scheduleTime helveticaBold">11.45 - noon</div>
