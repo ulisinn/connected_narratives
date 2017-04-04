@@ -275,6 +275,10 @@ exports.page = function ({
       new HtmlWebpackPlugin({
         chunks,
         mobile: true,
+        googleAnalytics: {
+          trackingId: 'UA-96805431-1',
+          pageViewOnLoad: true,
+        },
         filename: `${path && path + '/'}index.html`,
         template,
         title,
