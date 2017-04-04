@@ -41,7 +41,6 @@ const productionConfig = merge([
     plugins: [
       new webpack.HashedModuleIdsPlugin(),
     ],
-    recordsPath: 'records.json',
   },
   parts.clean(PATHS.build),
   parts.minifyJavaScript(),
@@ -119,8 +118,7 @@ module.exports = function (env) {
         entry: {
           app: env === 'production' ? PATHS.app :
             ['react-hot-loader/patch', PATHS.app],
-        }
-        ,
+        },
         chunks: ['app', 'manifest', 'vendor'],
       }),
     ]
