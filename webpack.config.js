@@ -114,7 +114,7 @@ const developmentConfig = merge([
 module.exports = function (env) {
   const pages = [
       parts.page({
-        title: 'Intersecting Biomusic & Autism',
+        title: 'Interfacing Biomusic & Autism',
         template: require.resolve('./template/default_index.ejs'),
         entry: {
           app: env === 'production' ? PATHS.app :
