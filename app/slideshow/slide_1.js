@@ -21,7 +21,7 @@ export  default class Slide_1 extends Component {
                  x={-150} y={0}>
           </image>
           <rect x="423" y="118" width="390" height="71" stroke="#e66722" strokeWidth="1" fill="none"/>
-          <text className="slide_text_1" fill="#e66722" x={457} y={174}>INTERFACING BIOMUSIC &amp; AUTISM</text>
+          <text className="slide_text_1" fill="#e66722" x={461} y={174}>INTERFACING BIOMUSIC &amp; AUTISM</text>
         </svg>
       </li>
     );

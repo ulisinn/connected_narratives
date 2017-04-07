@@ -21,7 +21,7 @@ export  default class Slide_2 extends Component {
                  x={0} y={0}>
           </image>
           <g transform="translate(340,118)">
-            <rect x="0" y="0" width="345" height="123" stroke="#ffffff" strokeWidth="1" fill="none"/>
+            <rect x="0" y="0" width="320" height="123" stroke="#ffffff" strokeWidth="1" fill="none"/>
             <text className="slide_text_2" fill="#ffffff">
               <tspan x={14} y={30}>Biomusic is an innovative technology</tspan>
               <tspan x={14} y={55}>that translates the physiological</tspan>
