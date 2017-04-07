@@ -41,7 +41,8 @@ const productionConfig = merge([
     plugins: [
       new webpack.HashedModuleIdsPlugin(),
     ],
-  },
+    recordsPath: path.resolve(__dirname, './recordsPath.json'),
+    },
   parts.clean(PATHS.build),
   parts.minifyJavaScript(),
   parts.minifyCSS({
