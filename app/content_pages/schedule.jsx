@@ -156,46 +156,36 @@ const Schedule = () => {
         </header>
         
         <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">8.00-8.30</div>
-          <div className="scheduleTitle">Coffee/WELCOME</div>
+          <div className="scheduleTime helveticaBold">8.00-9.30</div>
+          <div className="scheduleTitle">Emerging Scholar Reflections</div>
         </div>
         
         <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">8.30-8:45</div>
-          <div className="scheduleTitle">Moving-with & Biomusic <br/>
-            {/*<span className="scheduleParticipant helveticaBold">(Youth presentations)</span>*/}
-          </div>
+          <div className="scheduleTime helveticaBold">9.30-10.00</div>
+          <div className="scheduleTitle">Q/A and feedback</div>
         
         </div>
         <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">8:45-9:45</div>
-          <div className="scheduleTitle">Emerging Scholar Reflections <br/>
-            {/*<span className="scheduleParticipant helveticaBold">(Cascio, Motta, Teachman) & Discussants</span>*/}
-          </div>
-        </div>
-        
-        
-        <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">9.45-10.15</div>
-          <div className="scheduleTitle">Q/A and Feedback</div>
-        </div>
-        
-        
-        <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">16.00-16.15</div>
+          <div className="scheduleTime helveticaBold">10.00-10.15</div>
           <div className="scheduleTitle">Break</div>
         </div>
         
         <div className="scheduleEvent ">
-          <div className="scheduleTime helveticaBold">10.30-11.15</div>
-          <div className="scheduleTitle">Stakeholder roundtables</div>
+          <div className="scheduleTime helveticaBold">10.15-11.00</div>
+          <div className="scheduleTitle">Stakeholder roundtables:<br/>
+            1. Citizen led design brief <br/>
+            2. Universal design potentialities in higher education and employment <br/>
+            3. Publications
+          </div>
         </div>
         <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">11.15-11.45</div>
-          <div className="scheduleTitle">Large group discussion</div>
+          <div className="scheduleTime helveticaBold">11.00-11.30</div>
+          <div className="scheduleTitle">Large group discussion: <br/>Interest in partnerships, networks, collaboration
+            (grants and practice networks)
+          </div>
         </div>
         <div className="scheduleEvent">
-          <div className="scheduleTime helveticaBold">11.45 - noon</div>
+          <div className="scheduleTime helveticaBold">11.30-Noon</div>
           <div className="scheduleTitle">Thank you and Future Steps</div>
         </div>
       </section>
