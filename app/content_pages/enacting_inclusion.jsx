@@ -14,7 +14,8 @@ const EnactingInclusion = () => {
         <span
           className="contentBodyEm contentBodyIt"><a href="http://www.cirmmt.org" target="_blank">Centre for Interdisciplinary Research
         in Music and Media Technology</a></span>, a multi-disciplinary and inter-institutional research group housed at
-        the Schulich School of Music, McGill University. <span className="contentBodyIt">Interfacing Biomusic and Autism</span> aligns with the Centre’s
+        the Schulich School of Music, McGill University. <span
+          className="contentBodyIt">Interfacing Biomusic and Autism</span> aligns with the Centre’s
         mission to promote an interdisciplinary culture and form partnerships with the public and para-public sectors in
         Quebec, Canada and internationally.
       
@@ -44,7 +45,7 @@ const EnactingInclusion = () => {
             Studies)</p>
           </div>
           <div className="panelistOrg helvetica contentBodyIt">Attuning to Disability through Biomusic:<br/>What are the
-            New Ethical (Translational) Challenges? Communication, Invasion, Recreation?
+            New Ethical (Translational) Challenges?
           </div>
         </div>
         
@@ -52,8 +53,8 @@ const EnactingInclusion = () => {
           <div className="panelistName"><span className="helveticaBold">• Ariel Cascio</span> <p>(Cultural
             Anthropology)</p>
           </div>
-          <div className="panelistOrg helvetica contentBodyIt">Reflections on Biomusic from an Anthropology of Autism
-            Perspective
+          <div className="panelistOrg helvetica contentBodyIt">Communication, Invasion, Recreation? Reflections on
+            Biomusic from an Anthropology of Autism Perspective
           </div>
         </div>
         
