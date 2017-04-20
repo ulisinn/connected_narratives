@@ -43,7 +43,7 @@ const SocialSpatialInclusion = () => {
             <br/>
             <span className="contentBodyEm">Christian Senechal</span>, Director, National Centre for Dance Therapy
             <br/>
-            <span className="contentBodyEm">Remrov Vormer</span>, Artist
+            <span className="contentBodyEm">Remrov</span>, Autistic Artist & Advocate
           </p>
         </div>
         <p>{'\u00A0'}</p>
@@ -67,7 +67,7 @@ const SocialSpatialInclusion = () => {
             <br/>
             <span className="contentBodyEm">Aryanna Comodini</span>, Parent
             <br/>
-            <span className="contentBodyEm">TBA</span>, Spectrum Productions
+            <span className="contentBodyEm">Liam O'Rourke</span>, Director and Co-Founder, Spectrum Productions
           </p>
         </div>
         <p>{'\u00A0'}</p>
