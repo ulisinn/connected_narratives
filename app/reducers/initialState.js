@@ -96,6 +96,16 @@ export const initialState = {
     {
       id: uuid.v4(),
       
+      url: 'videos',
+      category: 'videos',
+      title: 'videos',
+      short: '',
+      date: '',
+      dropdown: false,
+    },
+    {
+      id: uuid.v4(),
+      
       url: 'contact',
       category: 'contact',
       title: 'contact',
